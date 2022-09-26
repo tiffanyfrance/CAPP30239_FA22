@@ -20,7 +20,7 @@ Here is what you need to do this week.
 * If you haven't used GitHub, <a href="https://github.com/">create an account</a>.
 * Create a new repository in GitHub called `CAPP30239_FA22`
 <img width="264" alt="Screen Shot 2022-09-26 at 9 03 51 AM" src="https://user-images.githubusercontent.com/4109514/192298692-7826c568-ae2f-4901-988e-18ba30cc498d.png">
-<img width="791" alt="Screen Shot 2022-09-26 at 9 05 49 AM" src="https://user-images.githubusercontent.com/4109514/192298939-7c7c2dd3-4a72-4cc9-acec-180e536d2384.png"> 
+<img width="721" alt="Screen Shot 2022-09-26 at 9 52 02 AM" src="https://user-images.githubusercontent.com/4109514/192309240-1d3ea722-0001-4a85-a6be-ee65d675c96e.png">
 * Download/Clone this repo into your local environment
 <img width="390" alt="Screen Shot 2022-09-26 at 9 06 15 AM" src="https://user-images.githubusercontent.com/4109514/192299196-af32fc5d-4cb9-4437-8cb8-c15b71deb0b0.png">
 <img width="813" alt="Screen Shot 2022-09-26 at 9 07 44 AM" src="https://user-images.githubusercontent.com/4109514/192299498-b0634ddb-ebdf-48d0-ad7b-09bb715df165.png">
