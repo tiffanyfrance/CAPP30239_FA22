@@ -18,17 +18,18 @@ Here is what you need to do this week.
 * Add folder at root called `week_01` 
 * Add a `README.md` inside `week_01`
 * `week_01/README.md` should contain:
-    - <b>Part 1</b>
+    - <b>Introduce Yourself</b>
         - Name as H1 (<a href="https://www.markdownguide.org/cheat-sheet/">MD Cheatsheet</a>)
         - Data Selfie
         - Intro paragraph about you. Include your degree path.
-    - <b>Part 2</b>
+    - <b>Data Exploration</b>
         - A couple of paragraphs about your idea for data for final project based on class conversation
-* Add data source and applicable code to `week_01` folder
+        - Any code related to getting that data or the data itself
 * Don't forget to add/commit/push this info
 
 
 ## II. Read/Review
+* <a href="https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/">How to Write a Good README File for Your GitHub Project</a>
 * <a href="https://material.io/design/communication/data-visualization.html#principles">Material Design</a> for Data Visualization
 * <a href="http://www.dear-data.com/theproject">Dear Data</a> (read/watch)
 * <a href="http://giorgialupi.com/data-humanism-my-manifesto-for-a-new-data-wold">Data Humanism</a>

@@ -40,6 +40,10 @@ This can be done a number of ways so if you are used to a different way you can 
 * `git push`
 * Check github.com to make sure commit was uploaded
 
+### Customize Your Readme.md
+During this quarter, I want you to get into the habit of <a href="https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes">writing good documentation</a> as you create code. This includes well-documented Readme files. The root level README.md should contain information about the repository, such as dates, descriptions, images, a general overview of what is included in the repository, and how the code should be used.
+* Write introduction to the repository in the root `README.md` file.
+
 <br />
 
 ### :wave: Don't forget to add your GitHub Repo URL to the class <a href="https://docs.google.com/spreadsheets/d/1MjHjhv8DqObpKB2f3iuYFd9WUkWrsgVgd4-H0PImQE4/edit#gid=53724992">spreadsheet</a>
