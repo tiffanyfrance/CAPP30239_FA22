@@ -37,12 +37,7 @@ This can be done a number of ways so if you are used to a different way you can 
 * `git commit -m 'Add a commit message here'`
 * `git push`
 * Check github.com to make sure commit was uploaded
-
-
-### Create GitHub Pages
-* Set up GitHub pages for your repository 
-[IMG]
-* Add GitHub Repo URL and GitHub Page URL to class spreadsheet
+* Add GitHub Page URL to class <a href="https://docs.google.com/spreadsheets/d/1MjHjhv8DqObpKB2f3iuYFd9WUkWrsgVgd4-H0PImQE4/edit#gid=53724992">spreadsheet</a>
 
 ## II. Create Week 1 Folder
 * Add folder at root called `week_01` 
