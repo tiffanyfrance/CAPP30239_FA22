@@ -43,17 +43,22 @@ This can be done a number of ways so if you are used to a different way you can 
 * Add folder at root called `week_01` 
 * Add a README.md inside `week_01`
 * Week 1 README should contain:
-    - Name as H1 (<a href="https://www.markdownguide.org/cheat-sheet/">MD Cheatsheet</a>)
-    - Data Selfie
-    - Intro paragraph about you.
-    - Idea for Data for final project
+    - Part 1
+        - Name as H1 (<a href="https://www.markdownguide.org/cheat-sheet/">MD Cheatsheet</a>)
+        - Data Selfie
+        - Intro paragraph about you. Include your degree path.
+    - Part 2
+        - A couple of paragraphs about your idea for data for final project based on class conversation
 * Add data source/code to Week 1 folder
-* Add/commit/push
+* Don't forget to add/commit/push this info
 
 
-## III. Read
-* Material Design for Data Visualization
-* Dear Data (read/watch)
-* Data Humanism
+## III. Read/Review
+* <a href="https://material.io/design/communication/data-visualization.html#principles">Material Design</a> for Data Visualization
+* <a href="http://www.dear-data.com/theproject">Dear Data</a> (read/watch)
+* <a href="http://giorgialupi.com/data-humanism-my-manifesto-for-a-new-data-wold">Data Humanism</a>
+
+## More Links
+* If you need to brush up on HTML/CSS/JS consider <a href="https://www.freecodecamp.org/news/html-css-and-javascript-explained-for-beginners/">freeCodeCamp</a>
 
 
