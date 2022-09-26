@@ -1,9 +1,13 @@
 # Week 1 Overview
 
 Welcome to Data Visualization for Public Policy! 
-This week we will be focusing on getting your 
-environment set up for class. We will also be looking
-at sources for data and ways to pull from an API.
+
+Before starting the assignments here, make sure you have
+<a href="https://github.com/tiffanyfrance/CAPP30239_FA22#setting-up-environment">
+set up and tested your GitHub environment</a>. 
+
+This week we creating Data Selfies and looking
+at sources for data.
 
 Week 1 Slides 
 (<a href="">Tuesday</a> | <a href="">Thursday</a>)
@@ -32,4 +36,7 @@ Here is what you need to do this week.
 ## More Links
 * If you need to brush up on HTML/CSS/JS consider <a href="https://www.freecodecamp.org/news/html-css-and-javascript-explained-for-beginners/">freeCodeCamp</a>
 
+<br />
+
+### :wave: Don't forget to add your GitHub Repo URL to the class <a href="https://docs.google.com/spreadsheets/d/1MjHjhv8DqObpKB2f3iuYFd9WUkWrsgVgd4-H0PImQE4/edit#gid=53724992">spreadsheet</a>
 
