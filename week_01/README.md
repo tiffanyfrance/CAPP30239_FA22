@@ -10,13 +10,13 @@ Week 1 Slides
 
 Here is what you need to do this week.
 
-Install Visual Studio Code
+### Install Visual Studio Code
 * Install <a href="https://code.visualstudio.com/">VS Code</a> (if you don't have it already)
 * Install <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 ">Live Server Extension</a> in VS Code
 <img width="811" alt="live-server" src="https://user-images.githubusercontent.com/4109514/192296085-a427ab3e-383b-4513-a63d-f310caea8de7.png">
 
-Create a GitHub Repository
+### Create a GitHub Repository
 * If you haven't used GitHub, <a href="https://github.com/">create an account</a>.
 * Create a new repository in GitHub called `CAPP30239_FA22`
 <img width="264" alt="Screen Shot 2022-09-26 at 9 03 51 AM" src="https://user-images.githubusercontent.com/4109514/192298692-7826c568-ae2f-4901-988e-18ba30cc498d.png">
@@ -25,7 +25,7 @@ Create a GitHub Repository
 <img width="390" alt="Screen Shot 2022-09-26 at 9 06 15 AM" src="https://user-images.githubusercontent.com/4109514/192299196-af32fc5d-4cb9-4437-8cb8-c15b71deb0b0.png">
 <img width="813" alt="Screen Shot 2022-09-26 at 9 07 44 AM" src="https://user-images.githubusercontent.com/4109514/192299498-b0634ddb-ebdf-48d0-ad7b-09bb715df165.png">
 
-Test Repository
+### Test Repository
 * Open local repository in Visual Studio Code
 * In .gitignore file add these lines
 ```
@@ -38,7 +38,7 @@ Test Repository
 * `git push`
 * Check github.com to make sure commit was uploaded
 
-Week 1 Folder
+### Week 1 Folder
 * Add folder at root called `week_01` 
 * Add a README.md inside `week_01`
 * Week 1 README should contain:
@@ -46,13 +46,11 @@ Week 1 Folder
     - Idea for Data for final project
 * Add/commit/push
 
-GitHub Pages
+### GitHub Pages
 * Set up GitHub pages for your repository 
 [IMG]
 * Add GitHub Repo and GitHub Page URL to class spreadsheet
 
-Read
-*
-*
-*
+### Read
+* TBA
 
