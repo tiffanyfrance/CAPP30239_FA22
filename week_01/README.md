@@ -14,7 +14,7 @@ Here is what you need to do this week.
 * Install <a href="https://code.visualstudio.com/">VS Code</a> (if you don't have it already)
 * Install <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 ">Live Server Extension</a> in VS Code
-<img width="811" alt="live-server" src="https://user-images.githubusercontent.com/4109514/192296085-a427ab3e-383b-4513-a63d-f310caea8de7.png">
+<img width="803" alt="Screen Shot 2022-09-26 at 9 47 26 AM" src="https://user-images.githubusercontent.com/4109514/192307909-fcd35b71-8590-4baf-a72c-f30e69c8b5ee.png">
 
 ### Create a GitHub Repository
 * If you haven't used GitHub, <a href="https://github.com/">create an account</a>.
