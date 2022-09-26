@@ -13,8 +13,7 @@ Here is what you need to do this week.
 ## I. Install Visual Studio Code
 * Install <a href="https://code.visualstudio.com/">VS Code</a> (if you don't have it already)<br /><img width="1701" alt="VS Code" src="https://user-images.githubusercontent.com/4109514/192313282-eff1604e-74ff-4395-a32d-efbe00043d63.png">
 * Install <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
-">Live Server Extension</a> in VS Code
-<img width="803" alt="Live Server" src="https://user-images.githubusercontent.com/4109514/192307909-fcd35b71-8590-4baf-a72c-f30e69c8b5ee.png">
+">Live Server Extension</a> in VS Code<br /><img width="803" alt="Live Server" src="https://user-images.githubusercontent.com/4109514/192307909-fcd35b71-8590-4baf-a72c-f30e69c8b5ee.png">
 
 
 ## II. Create a GitHub Repository
