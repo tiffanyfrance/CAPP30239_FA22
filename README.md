@@ -1,8 +1,6 @@
 # CAPP30239 FALL 2022
 
-<img width="676" alt="Screen Shot 2022-09-07 at 3 50 12 PM" src="https://user-images.githubusercontent.com/4109514/192392963-48df9c94-547f-4963-9e89-4a7edb6e3138.png">
-
-Welcome to CAPP 30239!
+### Welcome to CAPP 30239!
 
 Useful links:
 * <a href="https://docs.google.com/document/d/1u9aeEXNSAIgOp0fYkM8lnrUlyO2GyMSsXJjQDJIDPp0/edit?usp=sharing">Syllabus</a>
