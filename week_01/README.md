@@ -16,9 +16,11 @@ Here is what you need to do this week.
 ">Live Server Extension</a> in VS Code
 <img width="803" alt="Live Server" src="https://user-images.githubusercontent.com/4109514/192307909-fcd35b71-8590-4baf-a72c-f30e69c8b5ee.png">
 
+
 ## II. Create a GitHub Repository
 * If you haven't used GitHub, <a href="https://github.com/">create an account</a>.
 * Create a new repository in GitHub called `CAPP30239_FA22`<br /><img width="264" alt="Screen Shot 2022-09-26 at 9 03 51 AM" src="https://user-images.githubusercontent.com/4109514/192298692-7826c568-ae2f-4901-988e-18ba30cc498d.png"><br /><img width="721" alt="Screen Shot 2022-09-26 at 9 52 02 AM" src="https://user-images.githubusercontent.com/4109514/192309240-1d3ea722-0001-4a85-a6be-ee65d675c96e.png">
+
 
 ## III. Download/Test Repository
 This can be done a number of ways so if you are used to a different way you can do that and skip this part.
@@ -36,19 +38,29 @@ This can be done a number of ways so if you are used to a different way you can 
 * `git push`
 * Check github.com to make sure commit was uploaded
 
+
 ## IV. Create Week 1 Folder
 * Add folder at root called `week_01` 
 * Add a README.md inside `week_01`
 * Week 1 README should contain:
-    - Data source
+    - Name as H1 (<a href="https://www.markdownguide.org/cheat-sheet/">MD Cheatsheet</a>)
+    - Data Selfie
+    - Intro paragraph about you.
     - Idea for Data for final project
+* Add data source/code to Week 1 folder
 * Add/commit/push
+
+
 
 ## V. Create GitHub Pages
 * Set up GitHub pages for your repository 
 [IMG]
 * Add GitHub Repo URL and GitHub Page URL to class spreadsheet
 
+
 ## VI. Read
-* TBA
+* Material Design for Data Visualization
+* Dear Data (read/watch)
+* Data Humanism
+
 
