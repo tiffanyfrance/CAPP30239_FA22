@@ -40,5 +40,7 @@ This can be done a number of ways so if you are used to a different way you can 
 * `git push`
 * Check github.com to make sure commit was uploaded
 
-## Please add GitHub Page URL to class <a href="https://docs.google.com/spreadsheets/d/1MjHjhv8DqObpKB2f3iuYFd9WUkWrsgVgd4-H0PImQE4/edit#gid=53724992">spreadsheet</a>
+<br />
+
+### :wave: Please add GitHub Page URL to class <a href="https://docs.google.com/spreadsheets/d/1MjHjhv8DqObpKB2f3iuYFd9WUkWrsgVgd4-H0PImQE4/edit#gid=53724992">spreadsheet</a>
 
