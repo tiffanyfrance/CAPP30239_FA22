@@ -41,15 +41,15 @@ This can be done a number of ways so if you are used to a different way you can 
 
 ## II. Create Week 1 Folder
 * Add folder at root called `week_01` 
-* Add a README.md inside `week_01`
-* Week 1 README should contain:
-    - Part 1
+* Add a `README.md` inside `week_01`
+* `week_01/README.md` should contain:
+    - <b>Part 1</b>
         - Name as H1 (<a href="https://www.markdownguide.org/cheat-sheet/">MD Cheatsheet</a>)
         - Data Selfie
         - Intro paragraph about you. Include your degree path.
-    - Part 2
+    - <b>Part 2</b>
         - A couple of paragraphs about your idea for data for final project based on class conversation
-* Add data source/code to Week 1 folder
+* Add data source and applicable code to `week_01` folder
 * Don't forget to add/commit/push this info
 
 
