@@ -42,5 +42,5 @@ This can be done a number of ways so if you are used to a different way you can 
 
 <br />
 
-### :wave: Please add GitHub Page URL to class <a href="https://docs.google.com/spreadsheets/d/1MjHjhv8DqObpKB2f3iuYFd9WUkWrsgVgd4-H0PImQE4/edit#gid=53724992">spreadsheet</a>
+### :wave: Don't forget to add your GitHub Repo URL to the class <a href="https://docs.google.com/spreadsheets/d/1MjHjhv8DqObpKB2f3iuYFd9WUkWrsgVgd4-H0PImQE4/edit#gid=53724992">spreadsheet</a>
 
