@@ -9,9 +9,8 @@ Useful links:
 * Course Observable
 * Slack channel
 
-Please turn all homework in on your GitHub.<br /><span style="background:yellow;">Submit in `week_##` folder.</span>
+Please turn all homework in on your GitHub. Submit in `week_##` folder.
 
----
 
 ## Setting Up Environment 
 ### Install Visual Studio Code
@@ -40,5 +39,6 @@ This can be done a number of ways so if you are used to a different way you can 
 * `git commit -m 'Add a commit message here'`
 * `git push`
 * Check github.com to make sure commit was uploaded
-* Add GitHub Page URL to class <a href="https://docs.google.com/spreadsheets/d/1MjHjhv8DqObpKB2f3iuYFd9WUkWrsgVgd4-H0PImQE4/edit#gid=53724992">spreadsheet</a>
+
+## Please add GitHub Page URL to class <a href="https://docs.google.com/spreadsheets/d/1MjHjhv8DqObpKB2f3iuYFd9WUkWrsgVgd4-H0PImQE4/edit#gid=53724992">spreadsheet</a>
 
