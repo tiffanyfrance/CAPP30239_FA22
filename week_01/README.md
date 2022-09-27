@@ -10,7 +10,7 @@ This week we creating Data Selfies and looking
 at sources for data.
 
 Week 1 Slides 
-(<a href="">Tuesday</a> | <a href="">Thursday</a>)
+(<a href="https://docs.google.com/presentation/d/1crk3sFIzvwXjv_26ELXX8rnhjzCvlm2icOkzEx2FVMk/edit?usp=sharing">Tuesday</a> | <a href="">Thursday</a>)
 
 Here is what you need to do this week.
 

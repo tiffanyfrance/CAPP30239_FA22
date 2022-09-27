@@ -24,7 +24,7 @@ Please turn all homework in on your GitHub. Submit in `week_##` folder.
 * Create a new repository in GitHub called `CAPP30239_FA22`<br /><img width="264" alt="Screen Shot 2022-09-26 at 9 03 51 AM" src="https://user-images.githubusercontent.com/4109514/192298692-7826c568-ae2f-4901-988e-18ba30cc498d.png"><br /><img width="721" alt="Screen Shot 2022-09-26 at 9 52 02 AM" src="https://user-images.githubusercontent.com/4109514/192309240-1d3ea722-0001-4a85-a6be-ee65d675c96e.png">
 
 
-### Download/Test Repository
+### Download (Clone) & Test Repository
 This can be done a number of ways so if you are used to a different way you can do that and skip this part.
 * Copy URL from repository in browser<br /><img width="390" alt="Screen Shot 2022-09-26 at 9 06 15 AM" src="https://user-images.githubusercontent.com/4109514/192299196-af32fc5d-4cb9-4437-8cb8-c15b71deb0b0.png">
 * In terminal `git clone [paste your repo URL]`<br /><img width="544" alt="Screen Shot 2022-09-26 at 9 57 02 AM" src="https://user-images.githubusercontent.com/4109514/192310695-55816016-b8fa-4619-95fe-b3b983078bb0.png">
