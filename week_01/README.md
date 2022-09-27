@@ -22,9 +22,6 @@ Here is what you need to do this week.
         - Name as H1 (<a href="https://www.markdownguide.org/cheat-sheet/">MD Cheatsheet</a>)
         - Data Selfie
         - Intro paragraph about you. Include your degree path.
-    - <b>Data Exploration</b>
-        - A couple of paragraphs about your idea for data for final project based on class conversation
-        - Any code related to getting that data or the data itself
 * Don't forget to add/commit/push this info
 
 
