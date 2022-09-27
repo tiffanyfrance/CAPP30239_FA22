@@ -1,6 +1,6 @@
 # Week 1 Overview
 
-Welcome to Data Visualization for Public Policy! 
+Welcome to Data Visualization for Policy Analysis! 
 
 Before starting the assignments here, make sure you have
 <a href="https://github.com/tiffanyfrance/CAPP30239_FA22#setting-up-environment">
