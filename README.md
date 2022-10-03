@@ -1,4 +1,4 @@
-# CAPP30239 FALL 2022
+# CAPP30239 Data Visualization for Policy Analyst - FALL 2022
 
 ### Welcome to CAPP 30239!
 
