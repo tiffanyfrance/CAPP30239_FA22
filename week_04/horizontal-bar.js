@@ -1,6 +1,6 @@
 /* Horizontal bar chart for COVID country cases */
 
-d3.csv("covid.csv").then(data => {
+d3.csv("../week_03/covid.csv").then(data => {
 
     for (let d of data) {
         d.cases = +d.cases; //force a number
