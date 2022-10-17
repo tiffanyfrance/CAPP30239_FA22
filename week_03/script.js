@@ -6,6 +6,9 @@ d3.csv("covid.csv").then(data => {
         d.cases = +d.cases; //force a number
     };
 
+    // sort alphabetically
+    data.sort((a, b) => d3.ascending(a.country, b.country));
+
     const height = 600,
           width = 800,
           margin = ({ top: 25, right: 30, bottom: 35, left: 50 });

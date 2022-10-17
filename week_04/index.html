@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID country cases</title>
+    <style>
+        * { font-family: Arial, Helvetica, sans-serif; }
+        .flex-container {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            align-items: flex-start;
+            align-content: flex-start;
+            width: 100%;
+            max-width: 1040px;
+            height: 80vh;
+            overflow: auto;
+            flex-direction: row;
+            margin: 0 auto;
+        }
+        .flex-container .flex-item {
+            width: 100%;
+            min-height: 500px;
+            margin: 5px;
+        }
+        svg { width: 100%; }
+        text { font-size: 16px; }
+        /* Responsive Design */
+        /* @media only screen and (max-width: 600px) {
+            .flex-container {
+                display: block;
+                width: 80%;
+                height: auto;
+            }
+            .flex-container .flex-item { min-height: auto; }
+        } */
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div id="chart" class="flex-item">
+            <h2>Vertical Bar Chart</h2>
+            <p>
+                Bar charts are used to compare values.
+            </p>
+        </div>
+        <div id="horizontal-chart" class="flex-item">
+            <h2>Horizontal Bar Chart</h2>
+            <p>
+                Horizontal bar charts can be used for long titles
+                or for ranking.
+            </p>
+        </div>
+    </div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="../week_03/script.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
