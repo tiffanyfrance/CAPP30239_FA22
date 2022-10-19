@@ -6,11 +6,12 @@ d3.csv("covid.csv").then(data => {
         d.cases = +d.cases; //force a number
     };
 
-    data.sort((a, b) => b.cases - a.cases);
+    data.sort((a, b) => b.cases - a.cases); // sort cases by number, largest first
+    // data.sort((a, b) => d3.ascending(a.country, b.country)); // alphabatize by country
 
     const height = 600,
           width = 800,
-          margin = ({ top: 25, right: 30, bottom: 35, left: 50 });
+          margin = ({ top: 25, right: 30, bottom: 55, left: 65 });
 
     let svg = d3.select("#horizontal-chart")
         .append("svg")
@@ -54,4 +55,20 @@ d3.csv("covid.csv").then(data => {
         .attr('dominant-baseline', 'middle')
         .style('fill', 'white');
 
+    svg.append("text")
+      .attr("class", "x-label")
+      .attr("text-anchor", "end")
+      .attr("x", width - margin.right)
+      .attr("y", height)
+      .attr("dx", "0.5em") // dx and dy can be used for shifting position
+      .attr("dy", "-0.5em") // see https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/dy 
+      .text("Country Code");
+    
+    svg.append("text")
+      .attr("class", "y-label")
+      .attr("text-anchor", "end")
+      .attr("x", -margin.left/2)
+      .attr("y", 15)
+      .attr("transform", "rotate(-90)")
+      .text("COVID cases per 100,000");
 });
