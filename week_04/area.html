@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Area chart</title>
+  <style>
+     * {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #container {
+      max-width: 1040px;
+      margin: 0 auto;
+    }
+
+    #chart { 
+      width: 100%; 
+    }
+
+    text {
+      font-size: 10px;
+    }
+
+    path.domain { 
+      display: none;  
+    }
+
+    line {
+      stroke: #ddd;
+      stroke-dasharray: 2;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <h1>Interest Rates by Year (US)</h1>
+    <p>This line chart uses long-term-interest-monthly.csv 
+      which shows change of monthly interest rates over time. Source: 
+      <a href="https://data.oecd.org/interest/long-term-interest-rates.htm#indicator-chart">OECD</a>
+    </p>
+   <div id="chart"></div>
+  </div>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="area.js"></script>
+</body>
+</html>
