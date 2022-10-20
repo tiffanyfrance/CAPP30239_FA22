@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiline visualization</title>
+  <style>
+    * {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    a { color: #369;}
+
+    svg { width: 100%; }
+
+    text {
+      font-size: 10px;
+      text-transform: uppercase;
+    }
+
+    path.domain { display: none; }
+
+    line {
+      stroke: #eee;
+      stroke-dasharray: 1px;
+    }
+
+    .country { cursor: default; }
+    
+    .country path {
+      stroke-width: 1.5;
+      opacity: 0.75;
+    }
+
+    .highlight path {
+      stroke: steelblue;
+      opacity: 1;
+    }
+
+    .highlight text { fill: steelblue; }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <h1>Interest Rates by Year (G7)</h1>
+    <p>
+      Change of interest rates over time. Data: <a href="long-term-interest-G7.csv">long-term-interest-G7.csv</a>
+    </p>
+    <div id="chart"></div>
+  </div>
+</body>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="multiline.js"></script>
+
+</html>
