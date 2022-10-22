@@ -23,7 +23,7 @@ d3.csv("long-term-interest-G7.csv").then(data => {
     .range([margin.left, width - margin.right]);
 
   let y = d3.scaleLinear()
-    .domain(d3.extent(data, d => d.Value))
+    .domain(d3.extent(data, d => d.Value)) //using extent because values are less than 0
     .range([height - margin.bottom, margin.top]);
 
   svg.append("g")
