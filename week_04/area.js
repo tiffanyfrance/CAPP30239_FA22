@@ -30,7 +30,11 @@ d3.csv('long-term-interest-monthly.csv').then(data => {
     
     svg.append("g")
       .attr("transform", `translate(${margin.left},0)`)
-      .call(d3.axisLeft(y).tickFormat(d => d + "%").tickSizeOuter(0).tickSize(-width));
+      .call(d3.axisLeft(y)
+        .tickFormat(d => d + "%")
+        .tickSizeOuter(0)
+        .tickSize(-width + margin.left + margin.right) //updated to reach across
+      );
 
     svg.append("text")
       .attr("class", "x-label")
@@ -52,13 +56,13 @@ d3.csv('long-term-interest-monthly.csv').then(data => {
     
     let area = d3.area()
       .x(d => x(d.Date))
-      .y0(y(0))
+      .y0(y(0)) // flat bottom of shape
       .y1(d => y(d.Value));
 
     svg.append("path")
       .datum(data)
-      .attr("d", area)
-      .attr("fill", "pink")
+      .attr("d", area) // this d is an attribute
+      .attr("fill", "steelblue")
       .attr("stroke", "steelblue");
     
   });
