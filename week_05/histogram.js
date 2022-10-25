@@ -49,4 +49,18 @@ d3.json('climate-jan.json').then((data) => {
   //   .attr("y", d => y(d.length) - 5)
   //   .attr("text-anchor", "middle")
   //   .attr("fill", "#333");
+
+  // let temp = d3.min(data, d => d.average);
+  // let str = `The coldest average in <b>January 2020</b> was 
+  //           <b>${temp}℉</b>.`
+
+  // svg.append("foreignObject")
+  //   .attr("x", 80)
+  //   .attr("y", 100)
+  //   .attr("width", 120)
+  //   .attr("height", 100)
+  //   .append('xhtml:div')
+  //   .append("p")
+  //   .html(str);
+
 });

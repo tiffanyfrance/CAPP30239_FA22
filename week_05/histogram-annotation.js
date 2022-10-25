@@ -11,7 +11,7 @@ const svg = d3.select("#chart")
 
 const x = d3.scaleLinear()
     .range([margin.left, width - margin.right])
-    .domain([0,70]);
+    .domain([0,65]);
   
 const y = d3.scaleLinear()
     .range([height - margin.bottom, margin.top])
@@ -111,8 +111,8 @@ Promise.all([
   //     <b>${temp}℉</b>.`
 
   //   svg.append("foreignObject")
-  //     .attr("x", 320)
-  //     .attr("y", 80)
+  //     .attr("x", 40)
+  //     .attr("y", 120)
   //     .attr("width", 120)
   //     .attr("height", 100)
   //     .append('xhtml:div')

@@ -88,11 +88,13 @@ d3.csv('long-term-interest-G7.csv').then(data => {
     .attr("fill", "black")
     .attr("opacity", 0);
 
-  // Bisector
+  // Defining bisector function
   const bisectDate = d3.bisector(d => d.Date).center;
 
   // Function called on pointerenter and pointermove (75)
   function pointerMove(event) {
+    // Use bisectDate to return position in array
+    // invert is "give range/get domain", inverts way scale works
     let i = bisectDate(data, x.invert(d3.pointer(event)[0]));
     let d = data[i];
 

@@ -11,7 +11,7 @@ const svg = d3.select("#chart")
 
 const x = d3.scaleLinear()
     .range([margin.left, width - margin.right])
-    .domain([0,70]);
+    .domain([0,65]);
   
 const y = d3.scaleLinear()
     .range([height - margin.bottom, margin.top])
@@ -31,73 +31,73 @@ Promise.all([
     const binGroups = svg.append("g")
         .attr("class", "bin-group");
 
-    function updateChart(i) {
+    // function updateChart(i) {
         const bins = d3.bin()
             .thresholds(10)
             .value(d => d.average)(data[i]);
 
         binGroups.selectAll("g")
-        .data(bins, d => d.x0)
-        .join(
-            enter => {
-            let g = enter.append("g")
+            // .data(bins, d => d.x0)
+    //     .join(
+    //         enter => {
+    //         let g = enter.append("g")
 
-            g.append("rect")
-                .attr("x", d => x(d.x0) + padding / 2)
-                .attr("y", height - margin.bottom)
-                .attr("width", d => x(d.x1) - x(d.x0) - padding)
-                .attr("height", 0)
-                .attr("fill", "steelblue")
-                .transition()
-                .duration(750)
-                .attr("y", d => y(d.length))
-                .attr("height", d => height - margin.bottom - y(d.length));
+    //         g.append("rect")
+    //             .attr("x", d => x(d.x0) + padding / 2)
+    //             .attr("y", height - margin.bottom)
+    //             .attr("width", d => x(d.x1) - x(d.x0) - padding)
+    //             .attr("height", 0)
+    //             .attr("fill", "steelblue")
+    //             .transition()
+    //             .duration(750)
+    //             .attr("y", d => y(d.length))
+    //             .attr("height", d => height - margin.bottom - y(d.length));
 
-            g.append("text")
-                .text(d => d.length)
-                .attr("x", d => x(d.x0) + (x(d.x1) - x(d.x0)) / 2)
-                .attr("y", height - margin.bottom - 5)
-                .attr("text-anchor", "middle")
-                .attr("fill", "#333")
-                .transition()
-                .duration(750)
-                .attr("y", d => y(d.length) - 5);
-            },
-            update => {
-            update.select("rect")
-                .transition()
-                .duration(750)
-                .attr("y", d => y(d.length))
-                .attr("height", d => height - margin.bottom - y(d.length));
+    //         g.append("text")
+    //             .text(d => d.length)
+    //             .attr("x", d => x(d.x0) + (x(d.x1) - x(d.x0)) / 2)
+    //             .attr("y", height - margin.bottom - 5)
+    //             .attr("text-anchor", "middle")
+    //             .attr("fill", "#333")
+    //             .transition()
+    //             .duration(750)
+    //             .attr("y", d => y(d.length) - 5);
+    //         },
+    //         update => {
+    //         update.select("rect")
+    //             .transition()
+    //             .duration(750)
+    //             .attr("y", d => y(d.length))
+    //             .attr("height", d => height - margin.bottom - y(d.length));
 
-            update.select("text")
-                .text(d => d.length)
-                .transition()
-                .duration(750)
-                .attr("y", d => y(d.length) - 5);
-            },
-            exit => {
-            exit.select("rect")
-                .transition()
-                .duration(750)
-                .attr("height", 0)
-                .attr("y", height - margin.bottom);
+    //         update.select("text")
+    //             .text(d => d.length)
+    //             .transition()
+    //             .duration(750)
+    //             .attr("y", d => y(d.length) - 5);
+    //         },
+    //         exit => {
+    //         exit.select("rect")
+    //             .transition()
+    //             .duration(750)
+    //             .attr("height", 0)
+    //             .attr("y", height - margin.bottom);
 
-            exit.select("text")
-                .text("");
+    //         exit.select("text")
+    //             .text("");
 
-            exit.transition()
-                .duration(750)
-                .remove();
-            }
-        );
-    }
+    //         exit.transition()
+    //             .duration(750)
+    //             .remove();
+    //         }
+    //     );
+    // }
 
-    updateChart(0);
+    // updateChart(0);
 
-    d3.selectAll("select")
-        .on("change", function (event) {
-        const i = parseInt(event.target.value);
-        updateChart(i);
-    });
+    // d3.selectAll("select")
+    //     .on("change", function (event) {
+    //     const i = parseInt(event.target.value);
+    //     updateChart(i);
+    // });
 });
