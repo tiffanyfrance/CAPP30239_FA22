@@ -2,7 +2,7 @@ let height = 400,
     width = 600,
     margin = ({ top: 25, right: 30, bottom: 35, left: 40 });
   
-  const svg = d3.select("#chart")
+const svg = d3.select("#chart")
     .append("svg")
     .attr("viewBox", [0, 0, width, height]);
 
