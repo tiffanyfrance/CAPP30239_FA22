@@ -9,20 +9,20 @@ const svg = d3.select("#chart")
     .append("svg")
     .attr("viewBox", [0, 0, width, height]);
 
-const x = d3.scaleLinear()
-    .range([margin.left, width - margin.right])
-    .domain([0,65]);
-  
-const y = d3.scaleLinear()
-    .range([height - margin.bottom, margin.top])
-    .domain([0,10]);
-
 Promise.all([
     d3.json('climate-jan.json'),
     d3.json('climate-feb.json'),
     d3.json('climate-mar.json')
 ]).then((data) => {      
     console.log(data)
+
+    const x = d3.scaleLinear()
+      .range([margin.left, width - margin.right])
+      .domain([0,65]);
+  
+    const y = d3.scaleLinear()
+        .range([height - margin.bottom, margin.top])
+        .domain([0,10]);
 
     svg.append("g")
         .attr("transform", `translate(0,${height - margin.bottom + 5})`)
