@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MCAPP Data Visualization for Public Policy</title>
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,600" rel="stylesheet">
+  <style>
+     * {
+      font-family: 'Work Sans',Arial, Helvetica, sans-serif;
+    }
+
+    #container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    h1  {
+      font-size: 32px;
+      text-transform: none;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    p, select, label {
+      max-width: 500px;
+      text-align: center;
+      margin: 0 auto;
+      padding-bottom: 40px;
+    }
+
+    #chart {
+      width: 100%;
+      margin-top: 40px;
+      text-align: center;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <h1>Expenses for 2022</h1>
+    <p>This page shows a ring chart with expenses for 2022. Note the gaps in between 
+      each arc for ease of distinguishing shapes and the area the shape contains.
+    </p>
+    <div id="chart"></div>
+  </div>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="ring.js"></script>
+</html>

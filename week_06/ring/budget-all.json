@@ -1,0 +1,104 @@
+[
+  {
+    "year": "2022",
+    "values": [
+      {
+        "category": "Food",
+        "amount": 717
+      },
+      {
+        "category": "Home",
+        "amount": 2464
+      },
+      {
+        "category": "Entertainment",
+        "amount": 377
+      }
+    ]
+  },
+  {
+    "year": "2021",
+    "values": [
+      {
+        "category": "Food",
+        "amount": 580
+      },
+      {
+        "category": "Home",
+        "amount": 1928
+      },
+      {
+        "category": "Entertainment",
+        "amount": 532
+      }
+    ]
+  },
+  {
+    "year": "2020",
+    "values": [
+      {
+        "category": "Food",
+        "amount": 957
+      },
+      {
+        "category": "Home",
+        "amount": 1861
+      },
+      {
+        "category": "Entertainment",
+        "amount": 532
+      }
+    ]
+  },
+  {
+    "year": "2019",
+    "values": [
+      {
+        "category": "Food",
+        "amount": 904
+      },
+      {
+        "category": "Home",
+        "amount": 2094
+      },
+      {
+        "category": "Entertainment",
+        "amount": 630
+      }
+    ]
+  },
+  {
+    "year": "2018",
+    "values": [
+      {
+        "category": "Food",
+        "amount": 1203
+      },
+      {
+        "category": "Home",
+        "amount": 1813
+      },
+      {
+        "category": "Entertainment",
+        "amount": 653
+      }
+    ]
+  },
+  {
+    "year": "2017",
+    "values": [
+      {
+        "category": "Food",
+        "amount": 1128
+      },
+      {
+        "category": "Home",
+        "amount": 1986
+      },
+      {
+        "category": "Entertainment",
+        "amount": 314
+      }
+    ]
+  }
+]

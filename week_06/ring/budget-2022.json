@@ -1,0 +1,14 @@
+[
+  {
+    "category": "Food",
+    "amount": 1300
+  },
+  {
+    "category": "Home",
+    "amount": 2300
+  },
+  {
+    "category": "Entertainment",
+    "amount": 500
+  }
+]

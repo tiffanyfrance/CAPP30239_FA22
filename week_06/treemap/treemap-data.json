@@ -1,0 +1,2132 @@
+{
+    "name": "Users",
+    "children": [
+      {
+        "name": "New England",
+        "children": [
+          {
+            "name": "Maine",
+            "children": [
+              {
+                "name": "Cumberland",
+                "value": 295003,
+                "color": "#1f77b4",
+                "opacity": 0.25
+              },
+              {
+                "name": "York",
+                "value": 207641,
+                "color": "#1f77b4",
+                "opacity": 0.25
+              },
+              {
+                "name": "Penobscot",
+                "value": 152148,
+                "color": "#1f77b4",
+                "opacity": 0.25
+              },
+              {
+                "name": "Kennebec",
+                "value": 122302,
+                "color": "#1f77b4",
+                "opacity": 0.25
+              },
+              {
+                "name": "Androscoggin",
+                "value": 108277,
+                "color": "#1f77b4",
+                "opacity": 0.25
+              },
+              {
+                "name": "Aroostook",
+                "value": 67055,
+                "color": "#1f77b4",
+                "opacity": 0.25
+              },
+              {
+                "name": "Oxford",
+                "value": 57975,
+                "color": "#1f77b4",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#1f77b4",
+            "opacity": 0.5
+          },
+          {
+            "name": "Rhode Island",
+            "children": [
+              {
+                "name": "Providence",
+                "value": 638931,
+                "color": "#1f77b4",
+                "opacity": 0.25
+              },
+              {
+                "name": "Kent",
+                "value": 164292,
+                "color": "#1f77b4",
+                "opacity": 0.25
+              },
+              {
+                "name": "Washington",
+                "value": 125577,
+                "color": "#1f77b4",
+                "opacity": 0.25
+              },
+              {
+                "name": "Newport",
+                "value": 82082,
+                "color": "#1f77b4",
+                "opacity": 0.25
+              },
+              {
+                "name": "Bristol",
+                "value": 48479,
+                "color": "#1f77b4",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#1f77b4",
+            "opacity": 0.5
+          },
+          {
+            "name": "Vermont",
+            "children": [
+              {
+                "name": "Chittenden",
+                "value": 163774,
+                "color": "#1f77b4",
+                "opacity": 0.25
+              },
+              {
+                "name": "Washington",
+                "value": 58409,
+                "color": "#1f77b4",
+                "opacity": 0.25
+              },
+              {
+                "name": "Rutland",
+                "value": 58191,
+                "color": "#1f77b4",
+                "opacity": 0.25
+              },
+              {
+                "name": "Windsor",
+                "value": 55062,
+                "color": "#1f77b4",
+                "opacity": 0.25
+              },
+              {
+                "name": "Franklin",
+                "value": 49402,
+                "color": "#1f77b4",
+                "opacity": 0.25
+              },
+              {
+                "name": "Windham",
+                "value": 42222,
+                "color": "#1f77b4",
+                "opacity": 0.25
+              },
+              {
+                "name": "Addison",
+                "value": 36791,
+                "color": "#1f77b4",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#1f77b4",
+            "opacity": 0.5
+          },
+          {
+            "name": "Connecticut",
+            "children": [
+              {
+                "name": "Fairfield",
+                "value": 943332,
+                "color": "#1f77b4",
+                "opacity": 0.25
+              },
+              {
+                "name": "Hartford",
+                "value": 891720,
+                "color": "#1f77b4",
+                "opacity": 0.25
+              },
+              {
+                "name": "New Haven",
+                "value": 854757,
+                "color": "#1f77b4",
+                "opacity": 0.25
+              },
+              {
+                "name": "New London",
+                "value": 265206,
+                "color": "#1f77b4",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#1f77b4",
+            "opacity": 0.5
+          },
+          {
+            "name": "New Hampshire",
+            "children": [
+              {
+                "name": "Hillsborough",
+                "value": 417025,
+                "color": "#1f77b4",
+                "opacity": 0.25
+              },
+              {
+                "name": "Rockingham",
+                "value": 309769,
+                "color": "#1f77b4",
+                "opacity": 0.25
+              },
+              {
+                "name": "Merrimack",
+                "value": 151391,
+                "color": "#1f77b4",
+                "opacity": 0.25
+              },
+              {
+                "name": "Strafford",
+                "value": 130633,
+                "color": "#1f77b4",
+                "opacity": 0.25
+              },
+              {
+                "name": "Grafton",
+                "value": 89886,
+                "color": "#1f77b4",
+                "opacity": 0.25
+              },
+              {
+                "name": "Cheshire",
+                "value": 76085,
+                "color": "#1f77b4",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#1f77b4",
+            "opacity": 0.5
+          },
+          {
+            "name": "Massachusetts",
+            "children": [
+              {
+                "name": "Middlesex",
+                "value": 1611699,
+                "color": "#1f77b4",
+                "opacity": 0.25
+              },
+              {
+                "name": "Worcester",
+                "value": 830622,
+                "color": "#1f77b4",
+                "opacity": 0.25
+              },
+              {
+                "name": "Suffolk",
+                "value": 803907,
+                "color": "#1f77b4",
+                "opacity": 0.25
+              },
+              {
+                "name": "Essex",
+                "value": 789034,
+                "color": "#1f77b4",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#1f77b4",
+            "opacity": 0.5
+          }
+        ],
+        "color": "#1f77b4",
+        "opacity": 0.75
+      },
+      {
+        "name": "Mid-Atlantic",
+        "children": [
+          {
+            "name": "New York",
+            "children": [
+              {
+                "name": "Kings",
+                "value": 2559903,
+                "color": "#ff7f0e",
+                "opacity": 0.25
+              },
+              {
+                "name": "Queens",
+                "value": 2253858,
+                "color": "#ff7f0e",
+                "opacity": 0.25
+              },
+              {
+                "name": "New York",
+                "value": 1628706,
+                "color": "#ff7f0e",
+                "opacity": 0.25
+              },
+              {
+                "name": "Suffolk",
+                "value": 1476601,
+                "color": "#ff7f0e",
+                "opacity": 0.25
+              },
+              {
+                "name": "Bronx",
+                "value": 1418207,
+                "color": "#ff7f0e",
+                "opacity": 0.25
+              },
+              {
+                "name": "Nassau",
+                "value": 1356924,
+                "color": "#ff7f0e",
+                "opacity": 0.25
+              },
+              {
+                "name": "Westchester",
+                "value": 967506,
+                "color": "#ff7f0e",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#ff7f0e",
+            "opacity": 0.5
+          },
+          {
+            "name": "New Jersey",
+            "children": [
+              {
+                "name": "Bergen",
+                "value": 932202,
+                "color": "#ff7f0e",
+                "opacity": 0.25
+              },
+              {
+                "name": "Middlesex",
+                "value": 825062,
+                "color": "#ff7f0e",
+                "opacity": 0.25
+              },
+              {
+                "name": "Essex",
+                "value": 798975,
+                "color": "#ff7f0e",
+                "opacity": 0.25
+              },
+              {
+                "name": "Hudson",
+                "value": 672391,
+                "color": "#ff7f0e",
+                "opacity": 0.25
+              },
+              {
+                "name": "Monmouth",
+                "value": 618795,
+                "color": "#ff7f0e",
+                "opacity": 0.25
+              },
+              {
+                "name": "Ocean",
+                "value": 607186,
+                "color": "#ff7f0e",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#ff7f0e",
+            "opacity": 0.5
+          },
+          {
+            "name": "Pennsylvania",
+            "children": [
+              {
+                "name": "Philadelphia",
+                "value": 1584064,
+                "color": "#ff7f0e",
+                "opacity": 0.25
+              },
+              {
+                "name": "Allegheny",
+                "value": 1216045,
+                "color": "#ff7f0e",
+                "opacity": 0.25
+              },
+              {
+                "name": "Montgomery",
+                "value": 830915,
+                "color": "#ff7f0e",
+                "opacity": 0.25
+              },
+              {
+                "name": "Bucks",
+                "value": 628270,
+                "color": "#ff7f0e",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#ff7f0e",
+            "opacity": 0.5
+          }
+        ],
+        "color": "#ff7f0e",
+        "opacity": 0.75
+      },
+      {
+        "name": "South",
+        "children": [
+          {
+            "name": "Virginia",
+            "children": [
+              {
+                "name": "Fairfax",
+                "value": 1147532,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Prince William",
+                "value": 470335,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Virginia Beach",
+                "value": 449974,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Loudoun",
+                "value": 413538,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Chesterfield",
+                "value": 352802,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Henrico",
+                "value": 330818,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#2ca02c",
+            "opacity": 0.5
+          },
+          {
+            "name": "West Virginia",
+            "children": [
+              {
+                "name": "Kanawha",
+                "value": 178124,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Berkeley",
+                "value": 119171,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Monongalia",
+                "value": 105612,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Cabell",
+                "value": 91945,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Wood",
+                "value": 83518,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Raleigh",
+                "value": 73361,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#2ca02c",
+            "opacity": 0.5
+          },
+          {
+            "name": "Kentucky",
+            "children": [
+              {
+                "name": "Jefferson",
+                "value": 766757,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Fayette",
+                "value": 323152,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Kenton",
+                "value": 166998,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Boone",
+                "value": 133581,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Warren",
+                "value": 132896,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#2ca02c",
+            "opacity": 0.5
+          },
+          {
+            "name": "Delaware",
+            "children": [
+              {
+                "name": "New Castle",
+                "value": 558753,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Sussex",
+                "value": 234225,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Kent",
+                "value": 180786,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#2ca02c",
+            "opacity": 0.5
+          },
+          {
+            "name": "Maryland",
+            "children": [
+              {
+                "name": "Montgomery",
+                "value": 1050688,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Prince George's",
+                "value": 909327,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Baltimore",
+                "value": 827370,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Baltimore City",
+                "value": 593490,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Anne Arundel",
+                "value": 579234,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#2ca02c",
+            "opacity": 0.5
+          },
+          {
+            "name": "North Carolina",
+            "children": [
+              {
+                "name": "Wake",
+                "value": 1111761,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Mecklenburg",
+                "value": 1110356,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Guilford",
+                "value": 537174,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Forsyth",
+                "value": 382295,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Cumberland",
+                "value": 335509,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Durham",
+                "value": 321488,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Buncombe",
+                "value": 261191,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#2ca02c",
+            "opacity": 0.5
+          },
+          {
+            "name": "South Carolina",
+            "children": [
+              {
+                "name": "Greenville",
+                "value": 523542,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Richland",
+                "value": 415759,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Charleston",
+                "value": 411406,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Horry",
+                "value": 354081,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Spartanburg",
+                "value": 319785,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#2ca02c",
+            "opacity": 0.5
+          },
+          {
+            "name": "Tennessee",
+            "children": [
+              {
+                "name": "Shelby",
+                "value": 937166,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Davidson",
+                "value": 694144,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Knox",
+                "value": 470313,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Hamilton",
+                "value": 367804,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Rutherford",
+                "value": 332285,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Williamson",
+                "value": 238412,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Montgomery",
+                "value": 208993,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#2ca02c",
+            "opacity": 0.5
+          },
+          {
+            "name": "Arkansas",
+            "children": [
+              {
+                "name": "Pulaski",
+                "value": 391911,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Benton",
+                "value": 279141,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Washington",
+                "value": 239187,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Sebastian",
+                "value": 127827,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Faulkner",
+                "value": 126007,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Saline",
+                "value": 122437,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Craighead",
+                "value": 110332,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#2ca02c",
+            "opacity": 0.5
+          },
+          {
+            "name": "Louisiana",
+            "children": [
+              {
+                "name": "East Baton Rouge Parish",
+                "value": 440059,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Jefferson Parish",
+                "value": 432493,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Orleans Parish",
+                "value": 390144,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "St. Tammany Parish",
+                "value": 260419,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Lafayette Parish",
+                "value": 244390,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Caddo Parish",
+                "value": 240204,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#2ca02c",
+            "opacity": 0.5
+          },
+          {
+            "name": "Florida",
+            "children": [
+              {
+                "name": "Miami-Dade",
+                "value": 2716940,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Broward",
+                "value": 1952778,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Palm Beach",
+                "value": 1496770,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Hillsborough",
+                "value": 1471968,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#2ca02c",
+            "opacity": 0.5
+          },
+          {
+            "name": "Georgia",
+            "children": [
+              {
+                "name": "Fulton",
+                "value": 1063937,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Gwinnett",
+                "value": 936250,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Cobb",
+                "value": 760141,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "DeKalb",
+                "value": 759297,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Clayton",
+                "value": 292256,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#2ca02c",
+            "opacity": 0.5
+          },
+          {
+            "name": "Alabama",
+            "children": [
+              {
+                "name": "Jefferson",
+                "value": 658573,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Mobile",
+                "value": 413210,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Madison",
+                "value": 372909,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Montgomery",
+                "value": 226486,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Baldwin",
+                "value": 223234,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Shelby",
+                "value": 217702,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#2ca02c",
+            "opacity": 0.5
+          },
+          {
+            "name": "Mississippi",
+            "children": [
+              {
+                "name": "Hinds",
+                "value": 231840,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Harrison",
+                "value": 208080,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "DeSoto",
+                "value": 184945,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Rankin",
+                "value": 155271,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              },
+              {
+                "name": "Jackson",
+                "value": 143617,
+                "color": "#2ca02c",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#2ca02c",
+            "opacity": 0.5
+          }
+        ],
+        "color": "#2ca02c",
+        "opacity": 0.75
+      },
+      {
+        "name": "Mid-West",
+        "children": [
+          {
+            "name": "Michigan",
+            "children": [
+              {
+                "name": "Wayne",
+                "value": 1749343,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Oakland",
+                "value": 1257584,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Macomb",
+                "value": 873972,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Kent",
+                "value": 656955,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Genesee",
+                "value": 405813,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Washtenaw",
+                "value": 367601,
+                "color": "#d62728",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#d62728",
+            "opacity": 0.5
+          },
+          {
+            "name": "North Dakota",
+            "children": [
+              {
+                "name": "Cass",
+                "value": 181923,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Burleigh",
+                "value": 95626,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Grand Forks",
+                "value": 69451,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Ward",
+                "value": 67641,
+                "color": "#d62728",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#d62728",
+            "opacity": 0.5
+          },
+          {
+            "name": "South Dakota",
+            "children": [
+              {
+                "name": "Minnehaha",
+                "value": 193134,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Pennington",
+                "value": 113775,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Lincoln",
+                "value": 61128,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Brown",
+                "value": 38839,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Brookings",
+                "value": 32968,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Codington",
+                "value": 27853,
+                "color": "#d62728",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#d62728",
+            "opacity": 0.5
+          },
+          {
+            "name": "Iowa",
+            "children": [
+              {
+                "name": "Polk",
+                "value": 490161,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Linn",
+                "value": 226706,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Scott",
+                "value": 172943,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Johnson",
+                "value": 151140,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Black Hawk",
+                "value": 131228,
+                "color": "#d62728",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#d62728",
+            "opacity": 0.5
+          },
+          {
+            "name": "Minnesota",
+            "children": [
+              {
+                "name": "Hennepin",
+                "value": 1265843,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Ramsey",
+                "value": 550321,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Dakota",
+                "value": 429021,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Anoka",
+                "value": 356921,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Washington",
+                "value": 262440,
+                "color": "#d62728",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#d62728",
+            "opacity": 0.5
+          },
+          {
+            "name": "Kansas",
+            "children": [
+              {
+                "name": "Johnson",
+                "value": 602401,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Sedgwick",
+                "value": 516042,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Shawnee",
+                "value": 176875,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Wyandotte",
+                "value": 165429,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Douglas",
+                "value": 122259,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Leavenworth",
+                "value": 81758,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Riley",
+                "value": 74232,
+                "color": "#d62728",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#d62728",
+            "opacity": 0.5
+          },
+          {
+            "name": "Nebraska",
+            "children": [
+              {
+                "name": "Douglas",
+                "value": 571327,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Lancaster",
+                "value": 319090,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Sarpy",
+                "value": 187196,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Hall",
+                "value": 61353,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Buffalo",
+                "value": 49659,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Dodge",
+                "value": 36565,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Scotts Bluff",
+                "value": 35618,
+                "color": "#d62728",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#d62728",
+            "opacity": 0.5
+          },
+          {
+            "name": "Ohio",
+            "children": [
+              {
+                "name": "Franklin",
+                "value": 1316756,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Cuyahoga",
+                "value": 1235072,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Hamilton",
+                "value": 817473,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Summit",
+                "value": 541013,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Montgomery",
+                "value": 531687,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Lucas",
+                "value": 428348,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Butler",
+                "value": 383134,
+                "color": "#d62728",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#d62728",
+            "opacity": 0.5
+          },
+          {
+            "name": "Indiana",
+            "children": [
+              {
+                "name": "Marion",
+                "value": 964582,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Lake",
+                "value": 485493,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Allen",
+                "value": 379299,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Hamilton",
+                "value": 338011,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "St. Joseph",
+                "value": 271826,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Elkhart",
+                "value": 206341,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Tippecanoe",
+                "value": 195732,
+                "color": "#d62728",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#d62728",
+            "opacity": 0.5
+          },
+          {
+            "name": "Illinois",
+            "children": [
+              {
+                "name": "Cook",
+                "value": 5150233,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "DuPage",
+                "value": 922921,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Lake",
+                "value": 696535,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Will",
+                "value": 690743,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Kane",
+                "value": 532403,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "McHenry",
+                "value": 307774,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Winnebago",
+                "value": 282572,
+                "color": "#d62728",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#d62728",
+            "opacity": 0.5
+          },
+          {
+            "name": "Wisconsin",
+            "children": [
+              {
+                "name": "Milwaukee",
+                "value": 945726,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Dane",
+                "value": 546695,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Waukesha",
+                "value": 404198,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Brown",
+                "value": 264542,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Racine",
+                "value": 196311,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Outagamie",
+                "value": 187885,
+                "color": "#d62728",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#d62728",
+            "opacity": 0.5
+          },
+          {
+            "name": "Missouri",
+            "children": [
+              {
+                "name": "St. Louis",
+                "value": 994205,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Jackson",
+                "value": 703011,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "St. Charles",
+                "value": 402022,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "St. Louis",
+                "value": 300576,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Greene",
+                "value": 293086,
+                "color": "#d62728",
+                "opacity": 0.25
+              },
+              {
+                "name": "Clay",
+                "value": 249948,
+                "color": "#d62728",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#d62728",
+            "opacity": 0.5
+          }
+        ],
+        "color": "#d62728",
+        "opacity": 0.75
+      },
+      {
+        "name": "South-West",
+        "children": [
+          {
+            "name": "Texas",
+            "children": [
+              {
+                "name": "Harris",
+                "value": 4713325,
+                "color": "#9467bd",
+                "opacity": 0.25
+              },
+              {
+                "name": "Dallas",
+                "value": 2635516,
+                "color": "#9467bd",
+                "opacity": 0.25
+              },
+              {
+                "name": "Tarrant",
+                "value": 2102515,
+                "color": "#9467bd",
+                "opacity": 0.25
+              },
+              {
+                "name": "Bexar",
+                "value": 2003554,
+                "color": "#9467bd",
+                "opacity": 0.25
+              },
+              {
+                "name": "Travis",
+                "value": 1273954,
+                "color": "#9467bd",
+                "opacity": 0.25
+              },
+              {
+                "name": "Collin",
+                "value": 1034730,
+                "color": "#9467bd",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#9467bd",
+            "opacity": 0.5
+          },
+          {
+            "name": "Arizona",
+            "children": [
+              {
+                "name": "Maricopa",
+                "value": 4485414,
+                "color": "#9467bd",
+                "opacity": 0.25
+              },
+              {
+                "name": "Pima",
+                "value": 1047279,
+                "color": "#9467bd",
+                "opacity": 0.25
+              },
+              {
+                "name": "Pinal",
+                "value": 462789,
+                "color": "#9467bd",
+                "opacity": 0.25
+              },
+              {
+                "name": "Yavapai",
+                "value": 235099,
+                "color": "#9467bd",
+                "opacity": 0.25
+              },
+              {
+                "name": "Yuma",
+                "value": 213787,
+                "color": "#9467bd",
+                "opacity": 0.25
+              },
+              {
+                "name": "Mohave",
+                "value": 212181,
+                "color": "#9467bd",
+                "opacity": 0.25
+              },
+              {
+                "name": "Coconino",
+                "value": 143476,
+                "color": "#9467bd",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#9467bd",
+            "opacity": 0.5
+          },
+          {
+            "name": "New Mexico",
+            "children": [
+              {
+                "name": "Bernalillo",
+                "value": 679121,
+                "color": "#9467bd",
+                "opacity": 0.25
+              },
+              {
+                "name": "Doña Ana",
+                "value": 218195,
+                "color": "#9467bd",
+                "opacity": 0.25
+              },
+              {
+                "name": "Santa Fe",
+                "value": 150358,
+                "color": "#9467bd",
+                "opacity": 0.25
+              },
+              {
+                "name": "Sandoval",
+                "value": 146748,
+                "color": "#9467bd",
+                "opacity": 0.25
+              },
+              {
+                "name": "San Juan",
+                "value": 123958,
+                "color": "#9467bd",
+                "opacity": 0.25
+              },
+              {
+                "name": "Valencia",
+                "value": 76688,
+                "color": "#9467bd",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#9467bd",
+            "opacity": 0.5
+          },
+          {
+            "name": "Oklahoma",
+            "children": [
+              {
+                "name": "Oklahoma",
+                "value": 797434,
+                "color": "#9467bd",
+                "opacity": 0.25
+              },
+              {
+                "name": "Tulsa",
+                "value": 651552,
+                "color": "#9467bd",
+                "opacity": 0.25
+              },
+              {
+                "name": "Cleveland",
+                "value": 284014,
+                "color": "#9467bd",
+                "opacity": 0.25
+              },
+              {
+                "name": "Canadian",
+                "value": 148306,
+                "color": "#9467bd",
+                "opacity": 0.25
+              },
+              {
+                "name": "Comanche",
+                "value": 120749,
+                "color": "#9467bd",
+                "opacity": 0.25
+              },
+              {
+                "name": "Rogers",
+                "value": 92459,
+                "color": "#9467bd",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#9467bd",
+            "opacity": 0.5
+          }
+        ],
+        "color": "#9467bd",
+        "opacity": 0.75
+      },
+      {
+        "name": "Rocky Mountains",
+        "children": [
+          {
+            "name": "Montana",
+            "children": [
+              {
+                "name": "Yellowstone",
+                "value": 161300,
+                "color": "#8c564b",
+                "opacity": 0.25
+              },
+              {
+                "name": "Missoula",
+                "value": 119600,
+                "color": "#8c564b",
+                "opacity": 0.25
+              },
+              {
+                "name": "Gallatin",
+                "value": 114434,
+                "color": "#8c564b",
+                "opacity": 0.25
+              },
+              {
+                "name": "Flathead",
+                "value": 103806,
+                "color": "#8c564b",
+                "opacity": 0.25
+              },
+              {
+                "name": "Cascade",
+                "value": 81366,
+                "color": "#8c564b",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#8c564b",
+            "opacity": 0.5
+          },
+          {
+            "name": "Idaho",
+            "children": [
+              {
+                "name": "Ada",
+                "value": 481587,
+                "color": "#8c564b",
+                "opacity": 0.25
+              },
+              {
+                "name": "Canyon",
+                "value": 229849,
+                "color": "#8c564b",
+                "opacity": 0.25
+              },
+              {
+                "name": "Kootenai",
+                "value": 165697,
+                "color": "#8c564b",
+                "opacity": 0.25
+              },
+              {
+                "name": "Bonneville",
+                "value": 119062,
+                "color": "#8c564b",
+                "opacity": 0.25
+              },
+              {
+                "name": "Bannock",
+                "value": 87808,
+                "color": "#8c564b",
+                "opacity": 0.25
+              },
+              {
+                "name": "Twin Falls",
+                "value": 86878,
+                "color": "#8c564b",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#8c564b",
+            "opacity": 0.5
+          },
+          {
+            "name": "Colorado",
+            "children": [
+              {
+                "name": "Denver",
+                "value": 727211,
+                "color": "#8c564b",
+                "opacity": 0.25
+              },
+              {
+                "name": "El Paso",
+                "value": 720403,
+                "color": "#8c564b",
+                "opacity": 0.25
+              },
+              {
+                "name": "Arapahoe",
+                "value": 656590,
+                "color": "#8c564b",
+                "opacity": 0.25
+              },
+              {
+                "name": "Jefferson",
+                "value": 582881,
+                "color": "#8c564b",
+                "opacity": 0.25
+              },
+              {
+                "name": "Adams",
+                "value": 517421,
+                "color": "#8c564b",
+                "opacity": 0.25
+              },
+              {
+                "name": "Larimer",
+                "value": 356899,
+                "color": "#8c564b",
+                "opacity": 0.25
+              },
+              {
+                "name": "Douglas",
+                "value": 351154,
+                "color": "#8c564b",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#8c564b",
+            "opacity": 0.5
+          },
+          {
+            "name": "Utah",
+            "children": [
+              {
+                "name": "Salt Lake",
+                "value": 1160437,
+                "color": "#8c564b",
+                "opacity": 0.25
+              },
+              {
+                "name": "Utah",
+                "value": 636235,
+                "color": "#8c564b",
+                "opacity": 0.25
+              },
+              {
+                "name": "Davis",
+                "value": 355481,
+                "color": "#8c564b",
+                "opacity": 0.25
+              },
+              {
+                "name": "Weber",
+                "value": 260213,
+                "color": "#8c564b",
+                "opacity": 0.25
+              },
+              {
+                "name": "Washington",
+                "value": 177556,
+                "color": "#8c564b",
+                "opacity": 0.25
+              },
+              {
+                "name": "Cache",
+                "value": 128289,
+                "color": "#8c564b",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#8c564b",
+            "opacity": 0.5
+          },
+          {
+            "name": "Wyoming",
+            "children": [
+              {
+                "name": "Laramie",
+                "value": 99500,
+                "color": "#8c564b",
+                "opacity": 0.25
+              },
+              {
+                "name": "Natrona",
+                "value": 79858,
+                "color": "#8c564b",
+                "opacity": 0.25
+              },
+              {
+                "name": "Campbell",
+                "value": 46341,
+                "color": "#8c564b",
+                "opacity": 0.25
+              },
+              {
+                "name": "Sweetwater",
+                "value": 42343,
+                "color": "#8c564b",
+                "opacity": 0.25
+              },
+              {
+                "name": "Fremont",
+                "value": 39261,
+                "color": "#8c564b",
+                "opacity": 0.25
+              },
+              {
+                "name": "Albany",
+                "value": 38880,
+                "color": "#8c564b",
+                "opacity": 0.25
+              },
+              {
+                "name": "Sheridan",
+                "value": 30485,
+                "color": "#8c564b",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#8c564b",
+            "opacity": 0.5
+          },
+          {
+            "name": "Nevada",
+            "children": [
+              {
+                "name": "Clark",
+                "value": 2266715,
+                "color": "#8c564b",
+                "opacity": 0.25
+              },
+              {
+                "name": "Washoe",
+                "value": 471519,
+                "color": "#8c564b",
+                "opacity": 0.25
+              },
+              {
+                "name": "Lyon",
+                "value": 57510,
+                "color": "#8c564b",
+                "opacity": 0.25
+              },
+              {
+                "name": "Carson City",
+                "value": 55916,
+                "color": "#8c564b",
+                "opacity": 0.25
+              },
+              {
+                "name": "Elko",
+                "value": 52778,
+                "color": "#8c564b",
+                "opacity": 0.25
+              },
+              {
+                "name": "Douglas",
+                "value": 48905,
+                "color": "#8c564b",
+                "opacity": 0.25
+              },
+              {
+                "name": "Nye",
+                "value": 46523,
+                "color": "#8c564b",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#8c564b",
+            "opacity": 0.5
+          }
+        ],
+        "color": "#8c564b",
+        "opacity": 0.75
+      },
+      {
+        "name": "Pacific",
+        "children": [
+          {
+            "name": "California",
+            "children": [
+              {
+                "name": "Los Angeles",
+                "value": 10039107,
+                "color": "#e377c2",
+                "opacity": 0.25
+              },
+              {
+                "name": "San Diego",
+                "value": 3338330,
+                "color": "#e377c2",
+                "opacity": 0.25
+              },
+              {
+                "name": "Orange",
+                "value": 3175692,
+                "color": "#e377c2",
+                "opacity": 0.25
+              },
+              {
+                "name": "Riverside",
+                "value": 2470546,
+                "color": "#e377c2",
+                "opacity": 0.25
+              },
+              {
+                "name": "San Bernardino",
+                "value": 2180085,
+                "color": "#e377c2",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#e377c2",
+            "opacity": 0.5
+          },
+          {
+            "name": "Oregon",
+            "children": [
+              {
+                "name": "Multnomah",
+                "value": 812855,
+                "color": "#e377c2",
+                "opacity": 0.25
+              },
+              {
+                "name": "Washington",
+                "value": 601592,
+                "color": "#e377c2",
+                "opacity": 0.25
+              },
+              {
+                "name": "Clackamas",
+                "value": 418187,
+                "color": "#e377c2",
+                "opacity": 0.25
+              },
+              {
+                "name": "Lane",
+                "value": 382067,
+                "color": "#e377c2",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#e377c2",
+            "opacity": 0.5
+          },
+          {
+            "name": "Washington",
+            "children": [
+              {
+                "name": "King",
+                "value": 2252782,
+                "color": "#e377c2",
+                "opacity": 0.25
+              },
+              {
+                "name": "Pierce",
+                "value": 904980,
+                "color": "#e377c2",
+                "opacity": 0.25
+              },
+              {
+                "name": "Snohomish",
+                "value": 822083,
+                "color": "#e377c2",
+                "opacity": 0.25
+              },
+              {
+                "name": "Spokane",
+                "value": 522798,
+                "color": "#e377c2",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#e377c2",
+            "opacity": 0.5
+          },
+          {
+            "name": "Hawaii",
+            "children": [
+              {
+                "name": "Honolulu",
+                "value": 974563,
+                "color": "#e377c2",
+                "opacity": 0.25
+              },
+              {
+                "name": "Hawaii",
+                "value": 201513,
+                "color": "#e377c2",
+                "opacity": 0.25
+              },
+              {
+                "name": "Maui",
+                "value": 167417,
+                "color": "#e377c2",
+                "opacity": 0.25
+              },
+              {
+                "name": "Kauai",
+                "value": 72293,
+                "color": "#e377c2",
+                "opacity": 0.25
+              },
+              {
+                "name": "Kalawao",
+                "value": 86,
+                "color": "#e377c2",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#e377c2",
+            "opacity": 0.5
+          },
+          {
+            "name": "Alaska",
+            "children": [
+              {
+                "name": "Anchorage",
+                "value": 288000,
+                "color": "#e377c2",
+                "opacity": 0.25
+              },
+              {
+                "name": "Matanuska-Susitna Borough",
+                "value": 108317,
+                "color": "#e377c2",
+                "opacity": 0.25
+              },
+              {
+                "name": "Fairbanks North Star Borough",
+                "value": 96849,
+                "color": "#e377c2",
+                "opacity": 0.25
+              },
+              {
+                "name": "Kenai Peninsula Borough",
+                "value": 58708,
+                "color": "#e377c2",
+                "opacity": 0.25
+              },
+              {
+                "name": "Juneau",
+                "value": 31974,
+                "color": "#e377c2",
+                "opacity": 0.25
+              },
+              {
+                "name": "Bethel Census Area",
+                "value": 18386,
+                "color": "#e377c2",
+                "opacity": 0.25
+              },
+              {
+                "name": "Ketchikan Gateway Borough",
+                "value": 13901,
+                "color": "#e377c2",
+                "opacity": 0.25
+              }
+            ],
+            "color": "#e377c2",
+            "opacity": 0.5
+          }
+        ],
+        "color": "#e377c2",
+        "opacity": 0.75
+      }
+    ]
+  }
