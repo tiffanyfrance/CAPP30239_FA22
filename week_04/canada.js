@@ -66,4 +66,14 @@ d3.csv('long-term-interest-canada.csv').then(data => {
         .attr("fill", "none")
         .attr("stroke", "steelblue");
 
+    svg.append("g")
+      .attr("fill", "steelblue")
+      .attr("stroke", "white")
+      .selectAll("circle")
+      .data(data)
+      .join("circle")
+      .attr("cx", d => x(d.Month))
+      .attr("cy", d => y(d.Num))
+      .attr("r", 3)
+      .attr("opacity", 0.75);
   });

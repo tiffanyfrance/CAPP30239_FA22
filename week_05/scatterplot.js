@@ -26,36 +26,36 @@ d3.csv('penguins.csv').then(data => {
     .attr("class", "y-axis")
     .call(d3.axisLeft(y).tickSize(-width + margin.left + margin.right))
 
-//   svg.append("g")
-//     .attr("fill", "black")
-//     .selectAll("circle")
-//     .data(data)
-//     .join("circle")
-//     .attr("cx", d => x(d.body_mass_g))
-//     .attr("cy", d => y(d.flipper_length_mm))
-//     .attr("r", 2)
-//     .attr("opacity", 0.75);
+  svg.append("g")
+    .attr("fill", "black")
+    .selectAll("circle")
+    .data(data)
+    .join("circle")
+    .attr("cx", d => x(d.body_mass_g))
+    .attr("cy", d => y(d.flipper_length_mm))
+    .attr("r", 2)
+    .attr("opacity", 0.75);
 
-//   const tooltip = d3.select("body").append("div")
-//     .attr("class", "svg-tooltip")
-//     .style("position", "absolute")
-//     .style("visibility", "hidden");
+  const tooltip = d3.select("body").append("div")
+    .attr("class", "svg-tooltip")
+    .style("position", "absolute")
+    .style("visibility", "hidden");
 
-//   d3.selectAll("circle")
-//     .on("mouseover", function(event, d) {
-//       d3.select(this).attr("fill", "red");
-//       tooltip
-//         .style("visibility", "visible")
-//         .html(`Species: ${d.species}<br />Island: ${d.island}<br />Weight: ${d.body_mass_g/1000}kg`);
-//     })
-//     .on("mousemove", function(event) {
-//       tooltip
-//         .style("top", (event.pageY - 10) + "px")
-//         .style("left", (event.pageX + 10) + "px");
-//     })
-//     .on("mouseout", function() {
-//       d3.select(this).attr("fill", "black");
-//       tooltip.style("visibility", "hidden");
-//     })
+  d3.selectAll("circle")
+    .on("mouseover", function(event, d) {
+      d3.select(this).attr("fill", "red");
+      tooltip
+        .style("visibility", "visible")
+        .html(`Species: ${d.species}<br />Island: ${d.island}<br />Weight: ${d.body_mass_g/1000}kg`);
+    })
+    .on("mousemove", function(event) {
+      tooltip
+        .style("top", (event.pageY - 10) + "px")
+        .style("left", (event.pageX + 10) + "px");
+    })
+    .on("mouseout", function() {
+      d3.select(this).attr("fill", "black");
+      tooltip.style("visibility", "hidden");
+    })
     
 });

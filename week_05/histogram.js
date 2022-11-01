@@ -29,23 +29,29 @@ d3.json('climate-jan.json').then((data) => {
   const bins = d3.bin()
     .thresholds(10)
     .value(d => d.average)(data);
+  
+    console.log(bins);
 
   let g = binGroups.selectAll("g")
     .data(bins)
     .join("g");
 
-  // g.append("rect")
-  //   .attr("x", d => x(d.x0) + (padding / 2))
-  //   .attr("y", d => y(d.length))
-  //   .attr("width", d => x(d.x1) - x(d.x0) - padding)
-  //   .attr("height", d => height - margin.bottom - y(d.length))
-  //   .attr("fill", "steelblue");
+  g.append("rect")
+    .attr("x", d => x(d.x0) + (padding / 2))
+    .attr("width", d => x(d.x1) - x(d.x0) - padding)
+    .attr("y", height - margin.bottom)
+    .attr("height", 0)
+    .attr("fill", "steelblue")
+    .transition()
+    .duration(750)
+    .attr("y", d => y(d.length))
+    .attr("height", d => height - margin.bottom - y(d.length));
 
-  // g.append("text")
-  //   .text(d => d.length)
-  //   .attr("x", d => x(d.x0) + (x(d.x1) - x(d.x0)) / 2)
-  //   .attr("y", d => y(d.length) - 5)
-  //   .attr("text-anchor", "middle")
-  //   .attr("fill", "#333");
+  g.append("text")
+    .text(d => d.length)
+    .attr("x", d => x(d.x0) + (x(d.x1) - x(d.x0)) / 2)
+    .attr("y", d => y(d.length) - 5)
+    .attr("text-anchor", "middle")
+    .attr("fill", "#333");
 
 });
