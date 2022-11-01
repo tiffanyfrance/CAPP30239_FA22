@@ -70,7 +70,7 @@
     //       .select(".star")
     //       .attr("fill", "orange");
     //     tooltip.style("visibility", "hidden");
-      });
+    // });
       
   });
 // })();
