@@ -6,7 +6,7 @@
 - <a href="https://observablehq.com/@d3/beeswarm?collection=@d3/charts">D3 Charts on Observable</a>
 
 ### Concepts
-- bisect()
+- <a href="https://observablehq.com/@d3/d3-bisect">bisect()</a>
 - Observable functions (Bee Swarm)
 - scatterplots
 - tooltips
