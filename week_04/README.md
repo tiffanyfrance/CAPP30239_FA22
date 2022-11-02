@@ -8,6 +8,7 @@
 ### Documentation
 - <a href="https://observablehq.com/@d3/d3-line">d3.line</a>
 - Curves (see above)
+- <a href="https://observablehq.com/@d3/introduction-to-d3s-scales">D3 Scales</a>
 
 ### Concepts
 - Horizontal bar chart
