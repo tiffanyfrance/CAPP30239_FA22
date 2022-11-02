@@ -48,5 +48,6 @@ d3.json('budget-2022.json').then((data) => {
     .attr("font-weight", "bold")
     .attr("text-anchor", "middle")
     .attr("alignment-baseline", "middle")
-    .text("2022");
+    .text("2022")
+    .style("font-size", 20);
 });

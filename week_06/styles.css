@@ -9,6 +9,7 @@
 
   #chart {
     width: 100%;
+    text-align: center;
   }
 
   svg {
@@ -44,6 +45,10 @@
     font-size: 8px;
   }
   
+  .ring svg text {
+    font-size: 12px;
+  }
+  
   .x-axis text {
     transform: translateY(5px);
   }
@@ -55,3 +60,5 @@
   foreignObject p {
     font-size: 10px;
   }
+
+ 
