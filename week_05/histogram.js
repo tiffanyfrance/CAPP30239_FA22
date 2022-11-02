@@ -30,7 +30,7 @@ d3.json('climate-jan.json').then((data) => {
     .thresholds(10)
     .value(d => d.average)(data);
   
-    console.log(bins);
+  console.log(bins);
 
   let g = binGroups.selectAll("g")
     .data(bins)
