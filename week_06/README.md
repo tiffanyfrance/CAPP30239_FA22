@@ -4,6 +4,10 @@ Studying the composition and part-to-whole relationships within data gets much e
 ### See also
 - <a href="https://observablehq.com/@d3/stacked-bar-chart">Stacked Bar Chart</a>
 - <a href="https://observablehq.com/@d3/stacked-normalized-horizontal-bar">Stacked Bar Chart Horizontal, Normalized
+- <a href="https://observablehq.com/@d3/stacked-area-chart">Stacked Area Chart</a>
+- <a href="https://observablehq.com/@d3/normalized-stacked-area-chart">Stacked Area Chart, Normalized</a>
+- <a href="https://observablehq.com/@d3/streamgraph">Streamgraph</a>
+
 
 ### Documentation
 - <a href="https://www.d3indepth.com/shapes/">D3 In Depth - Shapes</a>
