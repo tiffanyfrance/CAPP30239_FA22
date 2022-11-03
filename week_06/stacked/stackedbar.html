@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Stacked Bar</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
   <div class="container">
@@ -49,7 +49,7 @@
     
       const stackedData = d3.stack()
         .keys(subgroups)(data);
-    
+
       svg.append("g")
         .selectAll("g")
         .data(stackedData)
@@ -61,16 +61,26 @@
         .attr("x", d => x(d.data.group))
         .attr("y", d => y(d[1]))
         .attr("height", d => y(d[0]) - y(d[1]))
-        .attr("width",x.bandwidth())
+        .attr("width",x.bandwidth());
 
-      // Manual legend
-      svg.append("circle").attr("cx",10).attr("cy",10).attr("r", 6).style("fill", "#e41a1c")
-      svg.append("circle").attr("cx",110).attr("cy",10).attr("r", 6).style("fill", "#377eb8")
-      svg.append("circle").attr("cx",205).attr("cy",10).attr("r", 6).style("fill", "#4daf4a")
-      svg.append("text").attr("x", 20).attr("y", 10).text("protein").style("font-size", "15px").attr("alignment-baseline","middle")
-      svg.append("text").attr("x", 130).attr("y", 10).text("carbs").style("font-size", "15px").attr("alignment-baseline","middle")
-      svg.append("text").attr("x", 225).attr("y", 10).text("fiber").style("font-size", "15px").attr("alignment-baseline","middle")
+      let legendGroup = svg
+        .selectAll(".legend-group")
+        .data(subgroups)
+        .join("g")
+        .attr("class", "legend-group");
 
+      legendGroup
+        .append("circle")
+        .attr("cx", (d, i) => (10 + (i * 75)))
+        .attr("cy",10)
+        .attr("r", 3)
+        .attr("fill", (d, i) => color(i));
+      
+      legendGroup
+        .append("text")
+        .attr("x", (d, i) => (20 + (i * 75)))
+        .attr("y",15)
+        .text((d, i) => subgroups[i]);
     });
     
     </script>
