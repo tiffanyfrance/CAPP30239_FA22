@@ -8,7 +8,7 @@
       .append("svg")
       .attr("viewBox", [0, 0, width, height]);
 
-  d3.csv('../penguins.csv').then(data => {
+  d3.csv('penguins.csv').then(data => {
     
     let x = d3.scaleLinear()
       .domain(d3.extent(data, d => d.body_mass_g)).nice()

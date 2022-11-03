@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horizontal Bar</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+
+    #chart {
+      text-align: left;
+    }
+
+    #chart div {
+      color:white;
+      box-sizing:border-box;
+      border:solid 1px #fff;
+      padding: 10px;
+      display: inline-block;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Macros for Veggie Burrito</h1>
+    <p>This data comes from the Chipotle website.</p>
+    <div id="chart">
+      <!-- <div style="width:13%;background-color: red;">Fat<br />13%</div>
+      <div style="width:16%;background-color: blue;float:left;">Protein<br />16%</div>
+      <div style="width:71%;background-color: green;float:left;">Carbs<br />71%</div> -->
+    </div>
+  
+  </div>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script>
+    const width = 860,
+      height = 100,
+      margin = { top: 10, right: 30, bottom: 20, left: 0 };
+
+    const svg = d3.select("#chart")
+      .append("svg")
+      .attr("viewBox", [0, 0, width, height]);
+
+    d3.csv("chipotle.csv").then(data => {
+
+      let x = d3.scaleLinear([0, 100], [margin.left, width - margin.right]);
+
+      let y = d3.scaleBand(data.map(d => (d.group)), [margin.top, height - margin.bottom])
+        .padding([0.1]);
+
+      const subgroups = data.columns.slice(1);
+
+      const color = d3.scaleOrdinal(subgroups, ['#e41a1c', '#377eb8', '#4daf4a']);
+
+      const stackedData = d3.stack()
+        .keys(subgroups)(data)
+
+      svg.append("g")
+        .selectAll("g")
+        .data(stackedData)
+        .join("g")
+        .attr("fill", d => color(d.key))
+        .attr("stroke", "white")
+        .attr("stroke-width", 2)
+        .selectAll("rect")
+        .data(d => d)
+        .join("rect")
+        .attr("x", d => x(d[0]))
+        .attr("y", d => y(d.data.group))
+        .attr("width", d => x(d[1]) - x(d[0]))
+        .attr("height", y.bandwidth());
+      
+    })
+
+  </script>
+</body>
+
+</html>

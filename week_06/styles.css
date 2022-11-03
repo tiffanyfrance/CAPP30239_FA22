@@ -2,8 +2,8 @@
     font-family: 'Work Sans',Arial, Helvetica, sans-serif;
   }
 
-  #container {
-    max-width: 1000px;
+  .container {
+    width: 1040px;
     margin: 0 auto;
   }
 
@@ -42,7 +42,7 @@
   }
 
   svg text {
-    font-size: 8px;
+    font-size: 12px;
   }
   
   .ring svg text {

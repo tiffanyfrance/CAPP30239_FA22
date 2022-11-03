@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stacked Bar</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Fruit Macros</h1>
+    <p>Data from 
+      <a href="https://www.fda.gov/food/food-labeling-nutrition/raw-fruits-poster-text-version-accessible-version">
+      FDA</a></p>
+    <div id="chart"></div>
+  </div>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script>
+
+    const width = 860,
+          height = 400,
+          margin = {top: 40, right: 30, bottom: 20, left: 20};
+    
+    const svg = d3.select("#chart")
+      .append("svg")
+      .attr("viewBox", [0, 0, width, height]);
+    
+    d3.csv("fruit.csv").then( data => {
+    
+      let x = d3.scaleBand(data.map(d => (d.group)),[margin.left, width - margin.right])
+        .padding([0.2]);
+
+      let y = d3.scaleLinear([0,45],[height - margin.bottom, margin.top]);
+
+      svg.append("g")
+        .attr("transform", `translate(0,${height - margin.bottom})`)
+        .call(d3.axisBottom(x))
+
+      svg.append("g")
+        .attr("transform", `translate(${margin.left},0)`)
+        .call(d3.axisLeft(y).tickSize(-width + margin.left + margin.right))
+      
+      //protein,carbs,fiber
+      const subgroups = data.columns.slice(1);
+
+      const color = d3.scaleOrdinal(subgroups,['#e41a1c','#377eb8','#4daf4a']);
+    
+      const stackedData = d3.stack()
+        .keys(subgroups)(data)
+    
+      svg.append("g")
+        .selectAll("g")
+        .data(stackedData)
+        .join("g")
+        .attr("fill", d => color(d.key))
+        .selectAll("rect")
+        .data(d => d)
+        .join("rect")
+        .attr("x", d => x(d.data.group))
+        .attr("y", d => y(d[1]))
+        .attr("height", d => y(d[0]) - y(d[1]))
+        .attr("width",x.bandwidth())
+
+      // Manual legend
+      svg.append("circle").attr("cx",10).attr("cy",10).attr("r", 6).style("fill", "#e41a1c")
+      svg.append("circle").attr("cx",110).attr("cy",10).attr("r", 6).style("fill", "#377eb8")
+      svg.append("circle").attr("cx",205).attr("cy",10).attr("r", 6).style("fill", "#4daf4a")
+      svg.append("text").attr("x", 20).attr("y", 10).text("protein").style("font-size", "15px").attr("alignment-baseline","middle")
+      svg.append("text").attr("x", 130).attr("y", 10).text("carbs").style("font-size", "15px").attr("alignment-baseline","middle")
+      svg.append("text").attr("x", 225).attr("y", 10).text("fiber").style("font-size", "15px").attr("alignment-baseline","middle")
+
+    });
+    
+    </script>
+  
+</body>
+</html>

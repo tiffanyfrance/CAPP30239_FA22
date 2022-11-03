@@ -4,21 +4,21 @@ Studying the composition and part-to-whole relationships within data gets much e
 ### See also
 - <a href="https://observablehq.com/@d3/stacked-bar-chart">Stacked Bar Chart</a>
 - <a href="https://observablehq.com/@d3/stacked-normalized-horizontal-bar">Stacked Bar Chart Horizontal, Normalized
-- <a href="https://observablehq.com/@d3/treemap">Observable Treemap</a>
 
 ### Documentation
 - <a href="https://www.d3indepth.com/shapes/">D3 In Depth - Shapes</a>
 - <a href="https://github.com/d3/d3-shape">D3 Shapes API</a>
 - - <a href="https://github.com/d3/d3-shape#arcs">d3.arc()</a>
 - - <a href="https://github.com/d3/d3-shape#arcs">d3.pie()</a>
-- <a href="https://observablehq.com/@d3/treemap">d3-hierarchy > d3.treemap()</a> 
+- <a href="https://observablehq.com/@d3/selection-join">data joins</a> 
 
 ### Concepts
 - symbols
+- voronoi
+- data joins
 - multiple charts on a page
 - loading multiple data sets
 - voronoi
 - ring chart
 - reusable functions
 - small multiples
-- treemap
