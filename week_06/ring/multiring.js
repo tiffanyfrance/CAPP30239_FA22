@@ -11,16 +11,11 @@ function createRing({ year, values }) {
     outerRadius = 65,
     labelRadius = 85;
 
-  const arcs = d3.pie()
-        .value(d => d.amount)(values);
+  const arcs = d3.pie().value(d => d.amount)(values);
 
-  const arc = d3.arc()
-        .innerRadius(innerRadius)
-        .outerRadius(outerRadius);
+  const arc = d3.arc().innerRadius(innerRadius).outerRadius(outerRadius);
 
-  const arcLabel = d3.arc()
-        .innerRadius(labelRadius)
-        .outerRadius(labelRadius);
+  const arcLabel = d3.arc().innerRadius(labelRadius).outerRadius(labelRadius);
 
   const svg = d3.select("#chart")
     .append("svg")

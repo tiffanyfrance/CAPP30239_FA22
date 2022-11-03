@@ -2,6 +2,10 @@
     font-family: 'Work Sans',Arial, Helvetica, sans-serif;
   }
 
+  p {
+    font-size: 1em;
+  }
+
   .container {
     width: 1040px;
     margin: 0 auto;
