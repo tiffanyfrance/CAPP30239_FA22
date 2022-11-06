@@ -1,5 +1,5 @@
 // Symbol function immediately invoked
-// (function symbol() {
+(function symbol() {
   let height = 400,
       width = 600,
       margin = ({ top: 25, right: 30, bottom: 35, left: 25 });
@@ -28,15 +28,15 @@
       .attr("class", "y-axis")
       .call(d3.axisLeft(y).tickSize(-width + margin.left + margin.right))
 
-    // svg.append("g")
-    //     .selectAll(".cross")
-    //     .data(data)
-    //     .join("path")
-    //     .attr("d", d3.symbol().type(d3.symbolCross).size(12))
-    //     .attr("class", "cross")
-    //     .attr("fill", "orange")
-    //     .attr("opacity", 0.75)
-    //     .attr("transform", d => `translate(${x(d.body_mass_g)},${y(d.flipper_length_mm)})`);
+    svg.append("g")
+        .selectAll(".cross")
+        .data(data)
+        .join("path")
+        .attr("d", d3.symbol().type(d3.symbolCross).size(12))
+        .attr("class", "cross")
+        .attr("fill", "orange")
+        .attr("opacity", 0.75)
+        .attr("transform", d => `translate(${x(d.body_mass_g)},${y(d.flipper_length_mm)})`);
 
     const tooltip = d3.select("body").append("div")
       .attr("class", "svg-tooltip")
@@ -61,4 +61,4 @@
       })
       
   });
-// })();
+})();

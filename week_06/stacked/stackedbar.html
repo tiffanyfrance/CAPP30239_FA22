@@ -49,6 +49,8 @@
     
       const stackedData = d3.stack()
         .keys(subgroups)(data);
+      
+      console.log(stackedData)
 
       svg.append("g")
         .selectAll("g")

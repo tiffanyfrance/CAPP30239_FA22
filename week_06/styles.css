@@ -16,6 +16,10 @@
     text-align: center;
   }
 
+  .month {
+    text-transform: capitalize;
+  }
+
   svg {
     max-height: 100vh;
   }

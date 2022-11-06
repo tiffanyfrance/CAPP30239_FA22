@@ -1,5 +1,5 @@
 // Voronoi function immediately invoked
-// (function voronoi() {
+(function voronoi() {
   let height = 400,
       width = 600,
       margin = ({ top: 25, right: 30, bottom: 35, left: 25 });
@@ -45,32 +45,32 @@
         .attr("opacity", 0.75)
         .attr("transform", d => `translate(${x(d.body_mass_g)},${y(d.flipper_length_mm)})`);
 
-    // const delaunay = d3.Delaunay.from(data, d => x(d.body_mass_g), d => y(d.flipper_length_mm));
-    // const voronoi = delaunay.voronoi([x.range()[0], y.range()[1], x.range()[1], y.range()[0]]);
+    const delaunay = d3.Delaunay.from(data, d => x(d.body_mass_g), d => y(d.flipper_length_mm));
+    const voronoi = delaunay.voronoi([x.range()[0], y.range()[1], x.range()[1], y.range()[0]]);
 
-    // cellGroups.append("path")
-    //   .attr("d", (d, i) => voronoi.renderCell(i))
-    //   .attr("fill-opacity", 0)
-    //   .attr("stroke", "black")
-    //   .on("mouseover", function (event, d) {
-    //     d3.select(this.parentNode)
-    //       .select(".star")
-    //       .attr("fill", "black");
-    //     tooltip
-    //       .style("visibility", "visible")
-    //       .html(`Species: ${d.species}<br />Island: ${d.island}<br />Weight: ${d.body_mass_g/1000}kg`);
-    //   })
-    //   .on("mousemove", function (event) {
-    //     tooltip
-    //       .style("top", (event.pageY - 10) + "px")
-    //       .style("left", (event.pageX + 10) + "px");
-    //   })
-    //   .on("mouseout", function () {
-    //     d3.select(this.parentNode)
-    //       .select(".star")
-    //       .attr("fill", "orange");
-    //     tooltip.style("visibility", "hidden");
-    // });
+    cellGroups.append("path")
+      .attr("d", (d, i) => voronoi.renderCell(i))
+      .attr("fill-opacity", 0)
+      .attr("stroke", "black")
+      .on("mouseover", function (event, d) {
+        d3.select(this.parentNode)
+          .select(".star")
+          .attr("fill", "black");
+        tooltip
+          .style("visibility", "visible")
+          .html(`Species: ${d.species}<br />Island: ${d.island}<br />Weight: ${d.body_mass_g/1000}kg`);
+      })
+      .on("mousemove", function (event) {
+        tooltip
+          .style("top", (event.pageY - 10) + "px")
+          .style("left", (event.pageX + 10) + "px");
+      })
+      .on("mouseout", function () {
+        d3.select(this.parentNode)
+          .select(".star")
+          .attr("fill", "orange");
+        tooltip.style("visibility", "hidden");
+    });
       
   });
-// })();
+})();

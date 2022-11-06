@@ -92,8 +92,8 @@ d3.json('climate.json').then((data) => {
 
         let temp = d3.mean(data[m], d => d.average).toFixed(1);
         let str = `The average temperature in 
-                    <b style="text-transform:capitalize;">${m} 2020</b> was 
-                    <b>${temp}℉</b>.`
+                    <b class="month">${m} 2022</b> was 
+                    <b>${temp}&#8451;</b>.`
 
         svg.append("foreignObject")
           .attr("x", 10)
