@@ -6,18 +6,9 @@ d3.json("a3cleanedonly2015.json").then(data => {
 
     // Create a new object to transform data
     let newData = [
-        {
-            "Gender": "Male",
-            "Totals": 0
-        },
-        {
-            "Gender": "Female",
-            "Totals": 0
-        },
-        {
-            "Gender": "Other",
-            "Totals": 0
-        },
+        { "Gender": "Male", "Totals": 0 },
+        { "Gender": "Female", "Totals": 0 },
+        { "Gender": "Other", "Totals": 0 },
     ]
 
     for (let d of data) {
@@ -31,6 +22,26 @@ d3.json("a3cleanedonly2015.json").then(data => {
     };
 
     console.log(newData); // view transformed data
+
+    /* Note: if you are matching on a more complex data point
+       like race, you can also use the find function in js
+       which is more condensed. See below */
+    
+    // let newData = [
+    //     { race: "", count: 0 },
+    //     { race: "Asian", count: 0 },
+    //     { race: "Black", count: 0 },
+    //     { race: "Hispanic", count: 0 },
+    //     { race: "Native", count: 0 },
+    //     { race: "Other", count: 0 },
+    //     { race: "White", count: 0 },
+    // ];
+
+    // for(var d of data) {
+    //      let nd = newData.find(nd => nd.race == d["Race"]);
+    //      nd.count += 1;
+    // }
+    // console.log(newData)
 
     const height = 600,
           width = 800,
