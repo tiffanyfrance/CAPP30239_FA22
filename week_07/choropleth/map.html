@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700" rel="stylesheet">
+  <style>
+    * {
+      font-family: 'Work Sans',Arial, Helvetica, sans-serif;
+    }
+
+    #container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    h1  {
+      font-size: 32px;
+      text-transform: none;
+      font-weight: 600;
+    }
+
+    p {
+      font-size: 16px;
+      text-transform: none;
+      max-width: 700px;
+    }
+
+    #chart, #chart p, #chart span {
+      width: 100%;
+      font-size: 10px;
+    }
+
+    svg {
+      max-height: 100vh;
+    }
+
+    .svg-tooltip {
+      background: rgba(69, 77, 93, .9);
+      border-radius: 5px;
+      color: #fff;
+      display: block;
+      font-size: 12px;
+      line-height: 16px;
+      text-transform: none;
+      max-width: 320px;
+      padding: 1rem;
+      position: absolute;
+      text-overflow: ellipsis;
+      white-space: pre;
+      z-index: 300;
+      visibility: hidden;
+    }
+
+    #legend {
+      margin-top: 50px
+    }
+
+    #legend svg {
+      margin: 0 auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <h1>Interest Rates Reached an All-time High During the Height of the Pandemic</h1>
+    <p>
+        Unemployment Rate in the US averaged 5.74 
+        percent from 1948 until 2022. In April of 2020, unemployment rate hit a high of 14.70 percent.
+        The following data comes from the <a href="https://www.bls.gov/lau/">Bureau of Labor Statistics</a>.
+    </p>
+    <div id="legend"></div>
+    <div id="chart"></div>
+  </div>
+</body>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="d3-color-legend.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+<script src="map.js"></script>
+
+</html>
