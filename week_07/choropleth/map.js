@@ -25,11 +25,7 @@ Promise.all([
     .domain([0, 10]).nice()
     .range(d3.schemeBlues[9]);
     console.log(d3.extent(data, d => d.rate))
-
-  // Average umemployment rate is now 3.7%,
-  // knowing this we can build a diverging scale.
-  // 3.7% will be middle, low high on either side
-
+    
   const path = d3.geoPath();
 
   d3.select("#legend")
