@@ -4,22 +4,14 @@ const tooltip = d3.select("body")
   .style("position", "absolute")
   .style("visibility", "hidden");
 
-d3.select("#legend")
-  .node()
-  .appendChild(
-    Legend(
-      d3.scaleOrdinal(
-        ["1", "2", "3", "4", "5", "6", "7", "8", "9+"],
-        d3.schemePurples[9]
-      ),
-      { title: "Unemployment rate (%)" }
-    ));
+const height = 610,
+  width = 975;
 
 let counties;
 
 Promise.all([
-  d3.json("unemployment-four-years.json"),
-  d3.json("counties-albers-10m.json")
+  d3.json("data/unemployment-four-years.json"),
+  d3.json("libs/counties-albers-10m.json")
 ]).then(([data, us]) => {
   counties = topojson.feature(us, us.objects.counties);
   createChart(data, "2018", '#row1');
@@ -38,14 +30,10 @@ function createChart(allData, year, elemId) {
     dataById[d.id] = d;
   }
 
-  const height = 610,
-    width = 975;
-
   // Quantize evenly breakups domain into range buckets
   const color = d3.scaleQuantize()
     .domain([0, 10]).nice()
     .range(d3.schemePurples[9]);
-  console.log(d3.extent(data, d => d.rate))
 
   const path = d3.geoPath();
 
@@ -76,3 +64,14 @@ function createChart(allData, year, elemId) {
       d3.select(this).attr("fill", d => (d.id in dataById) ? color(dataById[d.id].rate) : '#ccc');
     });
 }
+
+d3.select("#legend")
+  .node()
+  .appendChild(
+    Legend(
+      d3.scaleOrdinal(
+        ["1", "2", "3", "4", "5", "6", "7", "8", "9+"],
+        d3.schemePurples[9]
+      ),
+      { title: "Unemployment rate (%)" }
+    ));

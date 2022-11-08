@@ -1,0 +1,387 @@
+{
+  "1": {
+    "crimeCount": 3372,
+    "population": 55628,
+    "crimeDensity": 60.616955490040986
+  },
+  "2": {
+    "crimeCount": 3194,
+    "population": 77122,
+    "crimeDensity": 41.41490106584373
+  },
+  "3": {
+    "crimeCount": 3187,
+    "population": 57182,
+    "crimeDensity": 55.734321989437234
+  },
+  "4": {
+    "crimeCount": 1613,
+    "population": 40494,
+    "crimeDensity": 39.83306168815133
+  },
+  "5": {
+    "crimeCount": 1041,
+    "population": 35114,
+    "crimeDensity": 29.646294925101103
+  },
+  "6": {
+    "crimeCount": 4823,
+    "population": 103050,
+    "crimeDensity": 46.80252304706453
+  },
+  "7": {
+    "crimeCount": 2923,
+    "population": 70492,
+    "crimeDensity": 41.46569823526074
+  },
+  "8": {
+    "crimeCount": 8726,
+    "population": 105481,
+    "crimeDensity": 82.72579895905425
+  },
+  "9": {
+    "crimeCount": 241,
+    "population": 11525,
+    "crimeDensity": 20.91106290672451
+  },
+  "10": {
+    "crimeCount": 996,
+    "population": 38303,
+    "crimeDensity": 26.00318512910216
+  },
+  "11": {
+    "crimeCount": 866,
+    "population": 26216,
+    "crimeDensity": 33.03326212999695
+  },
+  "12": {
+    "crimeCount": 472,
+    "population": 19596,
+    "crimeDensity": 24.086548275158197
+  },
+  "13": {
+    "crimeCount": 813,
+    "population": 17559,
+    "crimeDensity": 46.301042200580895
+  },
+  "14": {
+    "crimeCount": 1707,
+    "population": 48396,
+    "crimeDensity": 35.271510042152244
+  },
+  "15": {
+    "crimeCount": 2396,
+    "population": 63020,
+    "crimeDensity": 38.01967629324024
+  },
+  "16": {
+    "crimeCount": 2057,
+    "population": 51940,
+    "crimeDensity": 39.60338852522141
+  },
+  "17": {
+    "crimeCount": 1195,
+    "population": 43147,
+    "crimeDensity": 27.69601594548868
+  },
+  "18": {
+    "crimeCount": 536,
+    "population": 14401,
+    "crimeDensity": 37.21963752517186
+  },
+  "19": {
+    "crimeCount": 3266,
+    "population": 78116,
+    "crimeDensity": 41.809616467817094
+  },
+  "20": {
+    "crimeCount": 1063,
+    "population": 24062,
+    "crimeDensity": 44.1775413515086
+  },
+  "21": {
+    "crimeCount": 1584,
+    "population": 36257,
+    "crimeDensity": 43.68811539840583
+  },
+  "22": {
+    "crimeCount": 3268,
+    "population": 71665,
+    "crimeDensity": 45.60106048977883
+  },
+  "23": {
+    "crimeCount": 4878,
+    "population": 54165,
+    "crimeDensity": 90.05815563555802
+  },
+  "24": {
+    "crimeCount": 5811,
+    "population": 87781,
+    "crimeDensity": 66.19883573894123
+  },
+  "25": {
+    "crimeCount": 10267,
+    "population": 96557,
+    "crimeDensity": 106.33097548598236
+  },
+  "26": {
+    "crimeCount": 3198,
+    "population": 17433,
+    "crimeDensity": 183.44519015659955
+  },
+  "27": {
+    "crimeCount": 3030,
+    "population": 19992,
+    "crimeDensity": 151.56062424969988
+  },
+  "28": {
+    "crimeCount": 7561,
+    "population": 67881,
+    "crimeDensity": 111.3861021493496
+  },
+  "29": {
+    "crimeCount": 5482,
+    "population": 34794,
+    "crimeDensity": 157.55590044260506
+  },
+  "30": {
+    "crimeCount": 3115,
+    "population": 71399,
+    "crimeDensity": 43.62806201767532
+  },
+  "31": {
+    "crimeCount": 2322,
+    "population": 33751,
+    "crimeDensity": 68.79796154188024
+  },
+  "32": {
+    "crimeCount": 6670,
+    "population": 42298,
+    "crimeDensity": 157.6906709537094
+  },
+  "33": {
+    "crimeCount": 2077,
+    "population": 28795,
+    "crimeDensity": 72.13057822538634
+  },
+  "34": {
+    "crimeCount": 944,
+    "population": 13890,
+    "crimeDensity": 67.9625629949604
+  },
+  "35": {
+    "crimeCount": 2219,
+    "population": 20291,
+    "crimeDensity": 109.35882903750431
+  },
+  "36": {
+    "crimeCount": 597,
+    "population": 6799,
+    "crimeDensity": 87.80703044565377
+  },
+  "37": {
+    "crimeCount": 534,
+    "population": 2567,
+    "crimeDensity": 208.02493182703543
+  },
+  "38": {
+    "crimeCount": 2815,
+    "population": 24589,
+    "crimeDensity": 114.48208548537964
+  },
+  "39": {
+    "crimeCount": 1419,
+    "population": 19116,
+    "crimeDensity": 74.23101067168864
+  },
+  "40": {
+    "crimeCount": 1808,
+    "population": 12707,
+    "crimeDensity": 142.28378059337373
+  },
+  "41": {
+    "crimeCount": 1709,
+    "population": 29456,
+    "crimeDensity": 58.018739815317765
+  },
+  "42": {
+    "crimeCount": 2642,
+    "population": 24425,
+    "crimeDensity": 108.16786079836233
+  },
+  "43": {
+    "crimeCount": 6857,
+    "population": 53971,
+    "crimeDensity": 127.04971188230718
+  },
+  "44": {
+    "crimeCount": 4931,
+    "population": 31710,
+    "crimeDensity": 155.5029959003469
+  },
+  "45": {
+    "crimeCount": 973,
+    "population": 9458,
+    "crimeDensity": 102.87587227743708
+  },
+  "46": {
+    "crimeCount": 3600,
+    "population": 27300,
+    "crimeDensity": 131.86813186813185
+  },
+  "47": {
+    "crimeCount": 262,
+    "population": 2527,
+    "crimeDensity": 103.6802532647408
+  },
+  "48": {
+    "crimeCount": 1064,
+    "population": 13088,
+    "crimeDensity": 81.2958435207824
+  },
+  "49": {
+    "crimeCount": 4862,
+    "population": 38816,
+    "crimeDensity": 125.25762572135201
+  },
+  "50": {
+    "crimeCount": 783,
+    "population": 6820,
+    "crimeDensity": 114.80938416422286
+  },
+  "51": {
+    "crimeCount": 1452,
+    "population": 14105,
+    "crimeDensity": 102.94221907125133
+  },
+  "52": {
+    "crimeCount": 934,
+    "population": 21724,
+    "crimeDensity": 42.993923770944576
+  },
+  "53": {
+    "crimeCount": 2766,
+    "population": 26104,
+    "crimeDensity": 105.96077229543366
+  },
+  "54": {
+    "crimeCount": 1033,
+    "population": 7262,
+    "crimeDensity": 142.24731478931426
+  },
+  "55": {
+    "crimeCount": 513,
+    "population": 10027,
+    "crimeDensity": 51.16186296998106
+  },
+  "56": {
+    "crimeCount": 1556,
+    "population": 35439,
+    "crimeDensity": 43.90643076836254
+  },
+  "57": {
+    "crimeCount": 769,
+    "population": 14196,
+    "crimeDensity": 54.1701887855734
+  },
+  "58": {
+    "crimeCount": 1746,
+    "population": 45053,
+    "crimeDensity": 38.754355980733806
+  },
+  "59": {
+    "crimeCount": 687,
+    "population": 15923,
+    "crimeDensity": 43.14513596684042
+  },
+  "60": {
+    "crimeCount": 1251,
+    "population": 33702,
+    "crimeDensity": 37.11945878582873
+  },
+  "61": {
+    "crimeCount": 3168,
+    "population": 43628,
+    "crimeDensity": 72.61391766755295
+  },
+  "62": {
+    "crimeCount": 696,
+    "population": 18394,
+    "crimeDensity": 37.8384255735566
+  },
+  "63": {
+    "crimeCount": 1582,
+    "population": 39540,
+    "crimeDensity": 40.010116337885684
+  },
+  "64": {
+    "crimeCount": 792,
+    "population": 24473,
+    "crimeDensity": 32.3621950721203
+  },
+  "65": {
+    "crimeCount": 1263,
+    "population": 33662,
+    "crimeDensity": 37.52005228447508
+  },
+  "66": {
+    "crimeCount": 4003,
+    "population": 55931,
+    "crimeDensity": 71.57032772523289
+  },
+  "67": {
+    "crimeCount": 3982,
+    "population": 29647,
+    "crimeDensity": 134.31375855904477
+  },
+  "68": {
+    "crimeCount": 3879,
+    "population": 24369,
+    "crimeDensity": 159.1776437276868
+  },
+  "69": {
+    "crimeCount": 4916,
+    "population": 31471,
+    "crimeDensity": 156.2073019605351
+  },
+  "70": {
+    "crimeCount": 1598,
+    "population": 41098,
+    "crimeDensity": 38.88267068957127
+  },
+  "71": {
+    "crimeCount": 5157,
+    "population": 44878,
+    "crimeDensity": 114.91153794732385
+  },
+  "72": {
+    "crimeCount": 700,
+    "population": 20027,
+    "crimeDensity": 34.95281370150297
+  },
+  "73": {
+    "crimeCount": 2352,
+    "population": 25065,
+    "crimeDensity": 93.836026331538
+  },
+  "74": {
+    "crimeCount": 435,
+    "population": 18628,
+    "crimeDensity": 23.351943311144513
+  },
+  "75": {
+    "crimeCount": 1395,
+    "population": 21186,
+    "crimeDensity": 65.84536958368734
+  },
+  "76": {
+    "crimeCount": 1369,
+    "population": 13418,
+    "crimeDensity": 102.02712773885825
+  },
+  "77": {
+    "crimeCount": 2338,
+    "population": 56296,
+    "crimeDensity": 41.53048173937758
+  }
+}
