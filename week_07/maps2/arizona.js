@@ -1,4 +1,4 @@
-const height = 410,
+const height = 500,
   width = 975;
 
 const svg = d3.select("#chart")
