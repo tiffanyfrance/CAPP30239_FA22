@@ -22,7 +22,7 @@ Promise.all([
 
   const communities = topojson.feature(chicagoTopology, chicagoTopology.objects.chicago);
   const mesh = topojson.mesh(chicagoTopology, chicagoTopology.objects.chicago);
-  const projection = d3.geoAlbers()
+  const projection = d3.geoMercator()
     .fitSize([width, height], mesh);
   const path = d3.geoPath().projection(projection);
 
@@ -39,7 +39,7 @@ Promise.all([
     .data(communities.features)
     .join("circle")
     .attr("stroke", '#ccc')
-    .attr("fill", "#f00")
+    .attr("fill", "brown")
     .attr("opacity", 0.75)
     .attr("r", d => radius(data[d.properties.area_numbe].crimeDensity))
     .attr("transform", d => `translate(${path.centroid(d)})`)
@@ -58,6 +58,6 @@ Promise.all([
     })
     .on("mouseout", function () {
       tooltip.style("visibility", "hidden");
-      d3.select(this).attr("fill", '#f00');
+      d3.select(this).attr("fill", 'brown');
     });
 });

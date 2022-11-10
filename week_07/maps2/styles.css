@@ -1,0 +1,54 @@
+* {
+    font-family: 'Work Sans',Arial, Helvetica, sans-serif;
+  }
+
+  #container, .container {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  h1  {
+    font-size: 32px;
+    text-transform: none;
+    font-weight: 600;
+  }
+
+  p {
+    font-size: 16px;
+    text-transform: none;
+  }
+
+  #chart, #chart p, #chart span {
+    width: 100%;
+    font-size: 10px;
+  }
+
+  svg {
+    max-height: 100vh;
+  }
+
+  .svg-tooltip {
+    background: rgba(69, 77, 93, .9);
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: none;
+    max-width: 320px;
+    padding: 1rem;
+    position: absolute;
+    text-overflow: ellipsis;
+    white-space: pre;
+    z-index: 300;
+    visibility: hidden;
+  }
+
+  #legend {
+    margin-top: 50px
+  }
+
+  #legend svg {
+    margin: 0 auto;
+  }
+  

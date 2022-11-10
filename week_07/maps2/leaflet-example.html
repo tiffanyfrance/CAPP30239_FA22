@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leaflet</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+    integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
+  <!-- Make sure you put this AFTER Leaflet's CSS -->
+  <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+    integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
+  <style>
+    #map {
+      width: 500px;
+      height: 580px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="map"></div>
+  <div id="content"></div>
+  <script>
+    // const map = L.map('map').setView([41.8781, -87.6298], 11);
+
+    // const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    //   maxZoom: 19,
+    //   attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    // }).addTo(map);
+
+    // var marker = L.marker([41.789722, -87.599724]).addTo(map);
+
+    // marker.bindPopup("<b>University of Chicago</b><br>You are here.");
+
+    // function onMapClick(e) {
+    //   let str = "This is an example of leaflet! So easy!!";
+    //   document.getElementById("content").innerHTML = str;
+    // }
+
+    // map.on('click', onMapClick);
+  </script>
+</body>
+
+</html>
