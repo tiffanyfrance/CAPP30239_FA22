@@ -5,21 +5,137 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transforming Data</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        svg {
-            width: 100%;
-            height: 100vh;
+        * {
+            font-family: 'Assistant', sans-serif;
+        }
+        .container {
+            max-width: 1000px;
+            padding: 20px;
+            margin: 0 auto;
+        }
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: normal;
+            align-items: normal;
+            align-content: normal;
+            column-gap: 40px;
+            margin: 60px 0px;
+        }
+        .flex-item {
+            display: block;
+            flex-grow: 0;
+            flex-shrink: 1;
+            flex-basis: auto;
+            align-self: auto;
+            order: 0;
+            width: 50%;
+        }
+        .float-left {
+            float:left;
+            width: 50%;
         }
         text {
             font-family: Arial, Helvetica, sans-serif;
             font-size: 10px;
         }
+        hr {
+            margin: 60px 0;
+        }
+        .chart p {
+            background: #eee;
+            padding: 5px 0px 5px 10px;
+            margin-right: 10px;
+        }
+        #monthChart .y-axis line {
+            stroke: #ccc;
+            stroke-dasharray: 2;
+        }
+
+        #monthChart .y-axis .domain {
+            display: none;
+        }
+        #divergingChart text {
+            font-size: 14px;
+        }
     </style>
 </head>
 <body>
-    <div id="chart"></div>
-    <div id="chart2"></div>
+    <div class="container">
+        <h1>
+            Male, Armed, and White? Interpreting Data 
+            of Individuals Shot and Killed by Police 
+            Officers in 2015 
+        </h1>
+        <div class="flex-container">
+            <div class="flex-item">
+                <h2>
+                    In 2015, over 1,500 people were
+                    shot and killed by Law Enforcement
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis odit impedit odio illo. Incidunt soluta, maiores natus quam illo nulla cumque numquam et tempore eum! Tempore soluta repellendus natus atque.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis odit impedit odio illo. Incidunt soluta, maiores natus quam illo nulla cumque numquam et tempore eum! Tempore soluta repellendus natus atque.</p>
+            </div>
+            <div id="monthChart" class="flex-item chart">
+            </div>
+        </div>
+        <div class="flex-container">
+            <div id="raceChart" class="flex-item chart"></div>
+            <div class="flex-item">
+                <h2>
+                    More White Individuals Were Shot and 
+                    Killed 
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis odit impedit odio illo. Incidunt soluta, maiores natus quam illo nulla cumque numquam et tempore eum! Tempore soluta repellendus natus atque.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis odit impedit odio illo. Incidunt soluta, maiores natus quam illo nulla cumque numquam et tempore eum! Tempore soluta repellendus natus atque.</p>
+            </div>
+        </div>
+        <div class="flex-container">
+            <div class="flex-item">
+                <h2>
+                    But, when adjusted by percentage of
+                    racial breakdown we see Black populations
+                    are disproportionately targeted
+                </h2>
+                <p>According to the <a href="https://www.census.gov/quickfacts/fact/table/US/PST045221">2020 Census</a>, White people, excluding Hispanics and Latino, make up 59.3% of the population. 13.6% of the population is Black, not Hispanic or Latino. When adjusted for these numbers, we see a disproportionate number of Black individuals shot and killed by Police.  Incidunt soluta, maiores natus quam illo nulla cumque numquam et tempore eum! Tempore soluta repellendus natus atque.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis odit impedit odio illo. Incidunt soluta, maiores natus quam illo nulla cumque numquam et tempore eum! Tempore soluta repellendus natus atque.</p>
+            </div>
+            <div id="divergingChart" class="flex-item chart"></div>
+        </div>
+        <hr>
+        <div class="float-container">
+            <div id="genderChart" class="float-left chart">
+            </div>
+            <h2>Most Victims were Male</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet totam error neque itaque consectetur ab omnis, mollitia nihil voluptatibus ratione dolores repellat magni eligendi cupiditate possimus, eaque ipsa reiciendis aperiam?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet totam error neque itaque consectetur ab omnis, mollitia nihil voluptatibus ratione dolores repellat magni eligendi cupiditate possimus, eaque ipsa reiciendis aperiam?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet totam error neque itaque consectetur ab omnis, mollitia nihil voluptatibus ratione dolores repellat magni eligendi cupiditate possimus, eaque ipsa reiciendis aperiam?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet totam error neque itaque consectetur ab omnis, mollitia nihil voluptatibus ratione dolores repellat magni eligendi cupiditate possimus, eaque ipsa reiciendis aperiam?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet totam error neque itaque consectetur ab omnis, mollitia nihil voluptatibus ratione dolores repellat magni eligendi cupiditate possimus, eaque ipsa reiciendis aperiam?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet totam error neque itaque consectetur ab omnis, mollitia nihil voluptatibus ratione dolores repellat magni eligendi cupiditate possimus, eaque ipsa reiciendis aperiam?
+            </p>
+        </div>
+    </div>
     <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="bar.js"></script>
+    <script src="line.js"></script>
+    <script src="diverging-bar.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
