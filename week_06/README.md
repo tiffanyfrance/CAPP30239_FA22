@@ -16,6 +16,94 @@ Studying the composition and part-to-whole relationships within data gets much e
     - <a href="https://github.com/d3/d3-shape#arcs">d3.pie()</a>
 - <a href="https://observablehq.com/@d3/selection-join">Data Joins</a> 
 
+### Pie Chart Label Overlapping Solutions
+- <a href="https://observablehq.com/@mast4461/d3-donut-chart-labels">Labels on lines</a>
+```
+/* ------- TEXT LABELS -------*/
+
+    const text = g
+      .select(".labels")
+      .selectAll("text")
+      .data(pie(data), key);
+
+    function midAngle(d) {
+      return d.startAngle + (d.endAngle - d.startAngle) / 2;
+    }
+
+    text
+      .enter()
+      .append("text")
+      .attr("dy", ".35em")
+      .text(function(d) {
+        return d.data.label;
+      })
+      .merge(text)
+      .transition()
+      .duration(1000)
+      .attrTween("transform", function(d) {
+        this._current = this._current || d;
+        const interpolate = d3.interpolate(this._current, d);
+        this._current = interpolate(0);
+        return function(t) {
+          const d2 = interpolate(t);
+          const pos = outerArc.centroid(d2);
+          pos[0] = radius * (midAngle(d2) < Math.PI ? 1 : -1);
+          return "translate(" + pos + ")";
+        };
+      })
+      .styleTween("text-anchor", function(d) {
+        this._current = this._current || d;
+        const interpolate = d3.interpolate(this._current, d);
+        this._current = interpolate(0);
+        return function(t) {
+          const d2 = interpolate(t);
+          return midAngle(d2) < Math.PI ? "start" : "end";
+        };
+      });
+
+    text.exit().remove();
+
+    /* ------- SLICE TO TEXT POLYLINES -------*/
+
+    const polyline = g
+      .select(".lines")
+      .selectAll("polyline")
+      .data(pie(data), key);
+
+    polyline
+      .join("polyline")
+      .transition()
+      .duration(1000)
+      .attrTween("points", function(d) {
+        this._current = this._current || d;
+        const interpolate = d3.interpolate(this._current, d);
+        this._current = interpolate(0);
+        return function(t) {
+          const d2 = interpolate(t);
+          const pos = outerArc.centroid(d2);
+          pos[0] = radius * 0.95 * (midAngle(d2) < Math.PI ? 1 : -1);
+          return [arc.centroid(d2), outerArc.centroid(d2), pos];
+        };
+      });
+
+    polyline.exit().remove();
+```
+- <a href="http://jsfiddle.net/2uT7F/">Rotate labels</a>
+```
+var getAngle = function (d) {
+      return (180 / Math.PI * (d.startAngle + d.endAngle) / 2 - 90);
+  };
+  
+  g.append("text")
+      .attr("transform", function(d) { 
+              return "translate(" + pos.centroid(d) + ") " +
+                      "rotate(" + getAngle(d) + ")"; }) 
+      .attr("dy", 5) 
+      .style("text-anchor", "start")
+      .text(function(d) { return d.data.label; });
+```
+- <a href="https://stackoverflow.com/a/19801529">Hide overlapping labels</a>
+
 ### Concepts
 - symbols
 - voronoi
