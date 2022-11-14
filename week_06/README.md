@@ -17,6 +17,9 @@ Studying the composition and part-to-whole relationships within data gets much e
 - <a href="https://observablehq.com/@d3/selection-join">Data Joins</a> 
 
 ### Pie Chart Label Overlapping Solutions
+There are several solutions for dealing with overlapping
+labels on a pie chart. Below are a few, but feel free to 
+browse the web for other solutions.
 - <a href="https://observablehq.com/@mast4461/d3-donut-chart-labels">Labels on lines</a>
 ```
 /* ------- TEXT LABELS -------*/
