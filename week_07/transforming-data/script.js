@@ -72,7 +72,7 @@ d3.json("a3cleanedonly2015.json").then(data => {
 
   bar(genderData, "#genderChart", "gender", "count");
   bar(raceData, "#raceChart", "race", "count");
-  line(monthData, "#monthChart", "month", "count", 60)
+  line(monthData, "#monthChart", "month", "count", 60);
   
   let dc = DivergingBarChart(raceData, {
     x: d => d.ratio,

@@ -19,7 +19,9 @@ Studying the composition and part-to-whole relationships within data gets much e
 ### Pie Chart Label Overlapping Solutions
 There are several solutions for dealing with overlapping
 labels on a pie chart. Below are a few, but feel free to 
-browse the web for other solutions.
+browse the web for other solutions. <b>Note:</b> if your labels are overlapping
+it may be better to consider a different chart type than a pie/ring. 
+The pie/ring can be hard to read and compare when the pieces are small.
 - <a href="https://observablehq.com/@mast4461/d3-donut-chart-labels">Labels on lines</a>
 ```
 /* ------- TEXT LABELS -------*/

@@ -7,14 +7,14 @@ const svg = d3.select("#chart")
 
 d3.json("libs/counties-albers-10m.json").then(us => {
 
-  const counties = topojson.feature(us, us.objects.counties); // Map simple geometries
-  console.log(counties);
+  // us data contains counties, states, and nation
+  const nation = topojson.feature(us, us.objects.nation); // Map simple geometries
 
   const path = d3.geoPath();
 
   svg.append("g")
     .selectAll("path")
-    .data(counties.features)
+    .data(nation.features)
     .join("path")
     .attr("stroke", "#999")
     .attr("fill", "white")

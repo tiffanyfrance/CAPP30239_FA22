@@ -1,0 +1,63 @@
+* {
+  font-family: 'Assistant', sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: normal;
+  align-items: normal;
+  align-content: normal;
+  column-gap: 40px;
+  margin: 60px 0px;
+}
+
+.flex-item {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  width: 50%;
+}
+
+.float-left {
+  float: left;
+  width: 50%;
+}
+
+text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+hr {
+  margin: 60px 0;
+}
+
+.chart p {
+  background: #eee;
+  padding: 5px 0px 5px 10px;
+  margin-right: 10px;
+}
+
+#monthChart .y-axis line {
+  stroke: #ccc;
+  stroke-dasharray: 2;
+}
+
+#monthChart .y-axis .domain {
+  display: none;
+}
+
+#divergingChart text {
+  font-size: 14px;
+}
