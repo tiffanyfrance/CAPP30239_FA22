@@ -12,6 +12,13 @@ const svg = d3.select("#chart")
   .attr("height", height)
   .attr("viewBox", [0, 0, width, height]);
 
+d3.select("body")
+  .on("click", function(e, d) {
+    let str = `Females earn more advanced degrees at all education levels`;
+    d3.select("h2")
+      .html(str);
+  })
+
 d3.csv("../degrees.csv").then((data) => {
 
   for (let d of data) {
@@ -73,6 +80,8 @@ d3.csv("../degrees.csv").then((data) => {
       let str = `${d.source.name} earned ${d.source.value.toLocaleString()} ${d.target.name} Degrees`;
       d3.select("h2")
         .html(str);
+
+      e.stopPropagation();
     })
     .append("title")
     .text(d => `${d.source.name} ${d.target.name}`);
