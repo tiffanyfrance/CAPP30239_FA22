@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>D3js Interactivity</title>
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700" rel="stylesheet">
+  <style>
+    * {
+      font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+      font-size: 12px;
+    }
+
+    #container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 32px;
+      text-transform: none;
+    }
+
+    p,
+    select,
+    input {
+      font-size: 16px;
+      text-transform: none;
+      max-width: 700px;
+    }
+
+    input {
+      min-width: 300px;
+    }
+
+    span {
+      text-transform: uppercase;
+      font-size: 14px;
+    }
+
+    #chart {
+      width: 100%;
+    }
+
+    svg {
+      height: 70vh;
+    }
+
+    .link {
+      fill: none;
+      stroke: #ccc;
+      stroke-width: 2px;
+    }
+
+    circle {
+      fill: steelblue;
+    }
+
+    text {
+      font-family: sans-serif;
+      font-size: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <h1>Henry VII family tree</h1>
+    <p>This simple tree chart shows nodes and links for 
+        Henry VII's children. Also see:
+        <a href="https://observablehq.com/@d3/collapsible-tree">collapsable tree</a> 
+        on Observable.
+    </p>
+    <div id="chart"></div>
+  </div>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="simple-tree.js"></script>
+</body>
+
+</html>

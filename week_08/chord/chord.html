@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MCAPP Data Visualization for Public Policy</title>
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,600" rel="stylesheet">
+  <style>
+    * {
+      font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    }
+
+    #container {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 32px;
+      text-transform: none;
+      font-weight: 600;
+    }
+
+    #chart {
+      width: 100%;
+    }
+
+    svg text {
+      font-size: 8px;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <h1>Chord diagram</h1>
+    <p>
+      This directional cord diagram shows degrees conferred by gender
+      for 2018-2019. The data is from <a href="https://nces.ed.gov/fastfacts/display.asp?id=72">
+        National Center for Education Statistics</a>.
+    </p>
+    <h2>&nbsp;</h2>
+    <div id="chart"></div>
+  </div>
+</body>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="chord.js"></script>
+
+</html>

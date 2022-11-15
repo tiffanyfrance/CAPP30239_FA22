@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MCAPP Data Visualization for Public Policy</title>
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,600" rel="stylesheet">
+  <style>
+    * {
+      font-family: 'Work Sans',Arial, Helvetica, sans-serif;
+      font-size: 9px;
+    }
+
+    #container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    h1  {
+      font-size: 32px;
+      text-transform: none;
+      font-weight: 600;
+    }
+
+    p, a {
+      font-size: 16px;
+      text-transform: none;
+      max-width: 700px;
+    }
+
+    #chart {
+      margin-top: 50px;
+      width: 100%;
+    }
+
+    svg {
+      max-height: 100vh;
+    }
+
+    .text-layer,
+    text {
+      pointer-events: none;
+      text-anchor: middle;
+    }
+  </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Sunburst chart using flare.json</h1>
+        <p>
+            This sunburst chart uses flare.json as the data set. Sunburst charts represent
+            the area of data distributed across a hierarchy in a circular format. 
+            See also: <a href="https://observablehq.com/@d3/zoomable-sunburst">
+            Zoomable Sunburst</a> on Observable.
+        </p>
+        <div id="chart">
+          <svg width="800" height="800" viewbox="-400 -400 800 800"></svg>
+        </div>
+    </div>
+    </body>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="sunburst.js"></script>
+</body>
+
+</html>

@@ -1,7 +1,14 @@
-d3.json('treemap-data.json').then(data => {
-    let height = 600,
-      width = 900;
-  
+// Treemap
+
+let height = 600,
+  width = 900;
+
+const svg = d3.select("#chart")
+  .append("svg")
+  .attr("viewBox", [0, 0, width, height]);
+
+
+d3.json('treemap-data.json').then(data => { 
     const treemap = data => d3.treemap()
       (d3.hierarchy(data)
         .sum(d => d.value)
@@ -11,10 +18,6 @@ d3.json('treemap-data.json').then(data => {
     const y = d3.scaleLinear().rangeRound([0, height]);
   
     const format = d3.format(",d");
-  
-    const svg = d3.select("#chart")
-      .append("svg")
-      .attr("viewBox", [0, 0, width, height]);
   
     let group = svg.append("g")
       .call(render, treemap(data));
@@ -46,10 +49,12 @@ d3.json('treemap-data.json').then(data => {
         .append("tspan")
         .attr("x", 3)
         .attr("y", "1.1em")
+        .attr("font-weight", "bold")
         .text(d => d.data.name)
         .append("tspan")
         .attr("x", 3)
         .attr("y", "2.3em")
+        .attr("font-weight", "normal")
         .text(d => format(d.value));
   
       group.call(position);
