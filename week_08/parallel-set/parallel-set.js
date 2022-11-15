@@ -80,7 +80,6 @@ d3.csv("../degrees.csv").then((data) => {
       let str = `${d.source.name} earned ${d.source.value.toLocaleString()} ${d.target.name} Degrees`;
       d3.select("h2")
         .html(str);
-
       e.stopPropagation();
     })
     .append("title")
