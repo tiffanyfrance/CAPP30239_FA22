@@ -1,0 +1,14 @@
+[
+  {
+    "crimeCount": 3372,
+    "population": 55628,
+    "crimeDensity": 60.616955490040986,
+    "longLat": [-87.599724,41.789722]
+  },
+  {
+    "crimeCount": 3194,
+    "population": 77122,
+    "crimeDensity": 41.41490106584373,
+    "longLat": [-87.6233,41.8827]
+  }
+]
