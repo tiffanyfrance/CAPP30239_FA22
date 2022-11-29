@@ -1,0 +1,59 @@
+<!-- <!DOCTYPE html> -->
+
+<head>
+  <meta charset="utf-8">
+  <title>Force layout</title>
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,600" rel="stylesheet">
+  <style>
+    * {
+      font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    }
+
+    h1 {
+      margin-bottom: 0px;
+    }
+
+    h3 {
+      margin-bottom: 0px;
+      padding-bottom: 10px;
+    }
+
+    .container {
+      margin: 0 auto;
+      max-width: 1200px;
+      text-align: center;
+    }
+
+    .svg-tooltip {
+      background: rgba(69, 77, 93, .9);
+      border-radius: 5px;
+      color: #fff;
+      display: block;
+      font-size: 12px;
+      line-height: 16px;
+      text-transform: none;
+      max-width: 320px;
+      padding: 1rem;
+      position: absolute;
+      text-overflow: ellipsis;
+      white-space: pre;
+      z-index: 300;
+      visibility: hidden;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Single Cluster</h1>
+    <p>Data source: <a
+        href="https://www.britannica.com/art/American-literature/The-17th-century">https://www.britannica.com/art/American-literature/The-17th-century</a>
+    </p>
+    <div id="chart"></div>
+  </div>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="cluster-single.js"></script>
+</body>
+
+</html>

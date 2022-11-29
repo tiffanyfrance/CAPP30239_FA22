@@ -7,8 +7,6 @@ d3.json('flare.json')
   let svg = d3.select('svg')
     .append('g');
 
-  // let color = d3.scaleOrdinal(d3.quantize(t => d3.interpolateSpectral(t * 0.9 + 0.2), data.children.length + 1));
-  // let color = d3.scaleOrdinal(d3.quantize(d3.interpolateRainbow, data.children.length + 1));
   let color = d3.scaleOrdinal(['#a6cee3','#1f78b4','#b2df8a','#33a02c','#fb9a99','#e31a1c','#fdbf6f','#ff7f00','#cab2d6','#6a3d9a','#ffff99','#b15928']);
 
   let arc = d3.arc()

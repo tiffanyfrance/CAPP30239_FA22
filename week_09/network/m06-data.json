@@ -1,0 +1,84 @@
+{
+  "nodes": [
+    {
+      "color": "red"
+    },
+    {
+      "color": "green"
+    },
+    {
+      "color": "blue"
+    },
+    {
+      "color": "yellow"
+    },
+    {
+      "color": "purple"
+    },
+    {
+      "color": "orange"
+    },
+    {
+      "color": "pink"
+    },
+    {
+      "color": "Chocolate"
+    },
+    {
+      "color": "Chartreuse"
+    },
+    {
+      "color": "Plum"
+    }
+  ],
+  "links": [
+    {
+      "source": 1,
+      "target": 0
+    },
+    {
+      "source": 7,
+      "target": 0
+    },
+    {
+      "source": 4,
+      "target": 0
+    },
+    {
+      "source": 5,
+      "target": 0
+    },
+    {
+      "source": 2,
+      "target": 5
+    },
+    {
+      "source": 4,
+      "target": 7
+    },
+    {
+      "source": 7,
+      "target": 6
+    },
+    {
+      "source": 3,
+      "target": 6
+    },
+    {
+      "source": 3,
+      "target": 7
+    },
+    {
+      "source": 8,
+      "target": 0
+    },
+    {
+      "source": 9,
+      "target": 2
+    },
+    {
+      "source": 9,
+      "target": 5
+    }
+  ]
+}
