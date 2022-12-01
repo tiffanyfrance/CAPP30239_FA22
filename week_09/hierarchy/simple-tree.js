@@ -40,7 +40,7 @@ console.log(nodeData)
 
 let nodes = treeGraph(nodeData);
 
-console.log(nodes.links())
+console.log("nodes",nodes.links())
 
 let link = g.selectAll('.link')
   .data(nodes.links())
@@ -61,5 +61,7 @@ node.append('circle')
 
 node.append('text')
   .text(d => d.data.name)
-  .attr('x', 12)
-  .attr('dy', '.35em');
+  .attr('x', 0)
+  .attr('y', -15)
+  .attr('text-anchor', 'middle');
+  
