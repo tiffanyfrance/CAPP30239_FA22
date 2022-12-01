@@ -1,0 +1,97 @@
+* {
+  font-family: 'Assistant', sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+hr {
+  margin: 60px 0;
+}
+
+.chart p {
+  background: #eee;
+  padding: 5px 0px 5px 10px;
+  margin-right: 10px;
+}
+
+#monthChart .y-axis line {
+  stroke: #ccc;
+  stroke-dasharray: 2;
+}
+
+#monthChart .y-axis .domain {
+  display: none;
+}
+
+#divergingChart text {
+  font-size: 14px;
+}
+
+#chart2b span[class^="-swatches-"] {
+  margin-bottom: 10px;
+}
+
+#chart4b {
+  margin-top: 30px;
+}
+
+#chart5b .country text {
+  visibility: hidden;
+}
+
+.highlight path {
+  stroke: steelblue;
+  opacity: 1;
+}
+
+.country { 
+  cursor: default; 
+}
+
+#chart5 .country.highlight text, #chart5b .country.highlight text { 
+  fill: steelblue; 
+  visibility: visible;
+}
+
+#chart5 .country path, #chart5b .country path  {
+  stroke-width: 1.5;
+  opacity: 0.75;
+}
+
+#chart5 path.domain, #chart5b path.domain { 
+  display: none; 
+}
+
+#chart5 .y-axis line, #chart5b .y-axis line {
+  stroke: #ccc;
+  stroke-dasharray: 1px;
+}
+
+/* .svg-tooltip {
+  background: rgba(255, 255, 255, .9);
+  border-radius: 5px;
+  color: #000;
+  display: block;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: none;
+  max-width: 320px;
+  padding: 1rem;
+  position: absolute;
+  text-overflow: ellipsis;
+  white-space: pre;
+  z-index: 300;
+  visibility: hidden;
+  box-shadow: 2px 4px 16px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 2px 4px 16px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 4px 16px 0px rgba(0,0,0,0.75);
+} */
